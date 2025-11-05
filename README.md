@@ -1,2 +1,1 @@
-# ds08_online-retail
-UofT DSI - Cohorot 7 - Team DS08
+## Data Sciences Institute - Cohort 7 Team DS08 - Final Project
