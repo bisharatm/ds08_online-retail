@@ -20,7 +20,7 @@ Data Sciences Institute - Cohort 7 - Team DS08 - Final Project
 - Data Cleaning: 
 - Exploratory Data Analysis:
 - Modelling:
-- Findings and Insights:
+- Visualizations and Insights:
 - Conclusion and Recommendations:
 
 #### Technical Stack:
@@ -37,7 +37,7 @@ Data Sciences Institute - Cohort 7 - Team DS08 - Final Project
 
 ## Modelling
 
-## Findings and Insights
+## Visualizations and Insights
 
 ## Conclusion and Recommendations
 
