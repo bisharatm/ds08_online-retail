@@ -19,7 +19,7 @@ Data Sciences Institute - Cohort 7 - Team DS08 - Final Project
 - Raw data Inspection:
 - Data Cleaning: 
 - Exploratory Data Analysis:
-- Modelling:
+- Modeling: Clustering and Segmentation:
 - Visualizations and Insights:
 - Conclusion and Recommendations:
 
@@ -35,7 +35,7 @@ Data Sciences Institute - Cohort 7 - Team DS08 - Final Project
 
 ## Exploratory Data Analysis
 
-## Modelling
+## Modeling: Clustering and Segmentation
 
 ## Visualizations and Insights
 
