@@ -56,7 +56,7 @@ The outputs will be clear segment definitions and profiles that support targeted
 
 # Methodology
 
-#### Process
+#### Process:
 
 - Raw data Inspection:
 - Data Cleaning: 
@@ -82,7 +82,8 @@ The outputs will be clear segment definitions and profiles that support targeted
     i.      numpy
     ii.     pandas
     iii.    matplotlib
-    iv.     seaborn
+    iv.     datatime 
+    v.      seaborn
 
 - Clustering model, Evaluation and Validation:
     i.      scikit-learn
