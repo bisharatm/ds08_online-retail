@@ -31,15 +31,15 @@ We will work with transactional data from December 2010 to December 2011, addres
 
 The outputs will be clear segment definitions and profiles that support targeted campaigns and resource allocation. The specific business question, stakeholder groups, and risk considerations are detailed in the sections below.
 
-#### Busniess Question:
+#### Business Question:
 
 - How do domestic (UK) and international customers cluster based on purchasing frequency, purchasing recency, and spending patterns in order to identify high-value customer groups and design targeted marketing strategies?
 
 #### Stakeholders:
 
-- Business Development Team:
-- Marketing and Customer Insights Team: 
-- Data Science/Analytics Team:
+- Business Development Team: Could use the customer groups to decide which markets to focus on, estimate potential sales by group, and plan partnerships and channels.
+- Marketing and Customer Insights Team: Might turn the group profiles into tailored offers and messages, adjust when and how people are contacted, and track results to improve future campaigns.
+- Data Science/Analytics Team: May prepare and update the data, rerun the grouping when needed, and share clear summaries and dashboards so others can apply the findings.
 
 #### Risks and uncertainties:
 
@@ -58,19 +58,20 @@ The outputs will be clear segment definitions and profiles that support targeted
 
 #### Process:
 
-- Raw data Inspection:
-- Data Cleaning: 
-- Exploratory Data Analysis:
-- Modeling: Clustering and Segmentation:
-- Visualizations and Insights:
-- Conclusion and Recommendations:
+- Raw data Inspection: audit schema and coverage, check date ranges, duplicates, returns, and country mix to confirm data fitness.
+- Data Cleaning: prepare a single analysis-ready file, fix missing values, correct types and standardize leabels of interest; flag returns and adjustments, deduplicate and compute reliable totals.
+- Exploratory Data Analysis: summarize the UK versus international mix, profile frequency, recency, and spend, check outliers and seasonality.
+- Modeling: Clustering and Segmentation: engineer frequency, recency, and spend features, scale data, run K-means, select k via elbow and silhouette, and label segments.
+- Visualizations and Insights: create clear plots and summaries that explain segment size, value, and behaviors by market for stakeholder consumption.
+- Conclusion and Recommendations: synthesize segment findings into actionable targeting guidance and next steps, noting limitations and assumptions.
 
 #### Technical Stack:
 
-- VS Code:
-- Slack:
-- Google Docs:
-- Google Colab:
+- VS Code
+- Slack
+- Google Docs
+- Google Colab
+- Zoom Meetings 
 
 #### Programming Languages:
 
@@ -82,7 +83,7 @@ The outputs will be clear segment definitions and profiles that support targeted
     i.      numpy
     ii.     pandas
     iii.    matplotlib
-    iv.     datatime 
+    iv.     datatime
     v.      seaborn
 
 - Clustering model, Evaluation and Validation:
