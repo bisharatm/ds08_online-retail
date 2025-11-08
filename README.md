@@ -14,13 +14,14 @@ Data Sciences Institute - Cohort 7 - Team DS08 - Final Project
     * [Raw Data Inspection](#raw-data-inspection)
     * [Data Cleaning](#data-cleaning)
     * [Exploratory Data Analysis](#exploratory-data-analysis)
-    * [Modeling: Clustering and Segmentation](#modeling:-clustering-and-segmentation)
+    * [Modeling: Clustering and Segmentation](#modeling-clustering-and-segmentation)
     * [Visualizations and Insights](#visualizations-and-insights)
     * [Conclusion and Recommendations](#conclusion-and-recommendations)
 * [Team Videos](#team-videos)
 
-#### Raw data source: [UC Irvine Machine Learning Repository - Online Retail](https://archive.ics.uci.edu/dataset/352/online+retail)
-#### Features of Interest: Quantity, InvoiceDate, UnitPrice, CustomerID, Country
+Raw data source: [UC Irvine Machine Learning Repository - Online Retail](https://archive.ics.uci.edu/dataset/352/online+retail)
+
+Features of Interest: Quantity, InvoiceDate, UnitPrice, CustomerID, Country
 
 # Project Scope and Objectives
 
