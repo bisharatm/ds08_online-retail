@@ -6,11 +6,16 @@ from matplotlib.axes import Axes
 
 # Set Color dictionaries
 COLORS = {
-    "monetary":  "#2563EB",
-    "frequency": "#10B981",
-    "recency":   "#EF4444",
-    "uk":        "#1F77B4",
-    "intl":      "#FF7F0E",
+    "monetary":  "#121315",
+    "frequency": "#5B82B4",
+    "recency":   "#653514",
+    "uk":        "#B71F58",
+    "intl":      "#F3A257",
+    "cluster01": "#084F6F",
+    "cluster02": "#CA91A7",
+    "cluster03": "#A62C37",
+    "cluster04": "#40456A",
+    "elbow":     "#121315",
     "text":      "#222222",
     "axis":      "#444444",
     "grid":      "#999999",
