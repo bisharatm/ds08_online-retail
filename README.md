@@ -156,15 +156,15 @@ This contrast is shown below.
 
 A wider commercial snapshot confirms the distinct dynamics of each customer base. Comparing total orders, total revenue and Average Order Value (AOV) across regions shows:
 
-#### - Domestic customers:
-    - Represent the majority of order volume
-    - Generate most of the total revenue
-    - Maintain lower average order values
+#### * Domestic customers:
+    * Represent the majority of order volume
+    * Generate most of the total revenue
+    * Maintain lower average order values
 
-#### - International customers:
-    - Account for a smaller proportion of orders
-    - Contribute a meaningful share of revenue despite lower volume
-    - Exhibit significantly higher average order values
+#### * International customers:
+    * Account for a smaller proportion of orders
+    * Contribute a meaningful share of revenue despite lower volume
+    * Exhibit significantly higher average order values
 
 These differences are summarised in the following visualization.
 
