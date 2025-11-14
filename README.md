@@ -43,7 +43,7 @@ The final deliverables will include clear segment definitions, behavioral profil
 
 #### Risks and uncertainties:
 
-- Uncertainties: 
+- Uncertainties:
     1. Having insufficient sample size, especially for international markets, may affect cluster representativeness.
     2. Ambiguity in cancellation reasons.
     3. Dataset spans December 2010 to December 2011, a single year, only therefore, external factors such as economic conditions, seasonality, and promotional cycles may impact generalizability for future years.
@@ -70,7 +70,7 @@ The final deliverables will include clear segment definitions, behavioral profil
 - Slack
 - Google Docs
 - Google Colab
-- Zoom Meetings 
+- Zoom Meetings
 
 #### Programming Languages:
 
@@ -102,3 +102,31 @@ The final deliverables will include clear segment definitions, behavioral profil
 
 # Team Videos
 
+# Setup Instructions
+1. Clone this repository
+
+    _If this is a fork, replace the URL below with your fork’s URL_
+
+    `git clone https://github.com/bisharatm/ds08_team-project.git`
+
+2. Navigate to the project directory
+
+    `cd ds08_online-retail`
+
+3. Install dependencies
+
+    **Note:** Before proceeding further, create and activate a **seperate** _conda environment_ or _venv virtual environment_ for the project to install project-specific dependencies.
+
+    `pip install -r requirements.txt`
+
+4. Launch Jupyter Notebook
+
+    This opens the Jupyter Notebook dashboard in your browser.
+
+    `jupyter notebook`
+
+5. Run notebooks
+
+    Navigate to each notebook (numbered sequentially), open and run individually, making sure to run them in the intended order.
+
+    Various outputs, such as, interim and final datasets, and visualizations will be exported and saved into approprirate folders under `data/` or `reports/`.
