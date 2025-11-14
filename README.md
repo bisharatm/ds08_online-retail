@@ -18,6 +18,7 @@ Data Sciences Institute - Cohort 7 - Team DS08 - Final Project
     * [Visualizations and Insights](#visualizations-and-insights)
     * [Conclusion and Recommendations](#conclusion-and-recommendations)
 * [Team Videos](#team-videos)
+* [Setup Instructions](#setup-instructions)
 
 Raw data source: [UC Irvine Machine Learning Repository - Online Retail](https://archive.ics.uci.edu/dataset/352/online+retail)
 
