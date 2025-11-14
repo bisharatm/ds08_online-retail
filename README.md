@@ -122,7 +122,7 @@ By formalizing the data fetch into code, the project establishes a stable founda
 
 This stage transforms the raw Online Retail dataset into a reliable, analytics-ready table by addressing missing information, correcting structural inconsistencies, and standardizing key identifiers. The goal is to ensure that every transaction used in the segmentation model represents a valid, attributable customer purchase across clearly defined markets.
 
-We began by importing the original Excel file and writing it to an intermediate CSV. Because CSV files do not preserve data types, the project uses an external source file that defines the expected schema for all key fields including invoice number, product code, description, quantity, unit price, customer ID, and country. This shared schema is referenced across all notebooks so that each dataset is read with consistent data types, supporting a fully reproducible and transparent pipeline.
+We began by importing the original Excel file and writing it to an intermediate CSV. Because CSV files do not preserve data types, the project uses an external source file that defines the expected schema for all key fields including invoice number, invoice date, stock code, description, customer ID, and country. This shared schema is referenced across all notebooks so that each dataset is read with consistent data types, supporting a fully reproducible and transparent pipeline.
 
 A series of systematic checks were then performed to assess and improve data quality:
 
@@ -200,7 +200,7 @@ Overall, the exploratory analysis highlights two structurally different customer
 
 #### Modeling: Clustering and Segmentation
 
-Building on a single unified RFM dataset derived from all customers, this stage applies K-Means clustering separately to Domestic (UK) and International (non-UK) customer subsets. Both subsets originate from the same RFM table; they are split only at the modeling stage to allow market-specific segmentation. The goal is to uncover behaviourally distinct customer segments in each market, and to compare how these segments differ in size, value and engagement.
+Building on a single unified RFM dataset derived from all customers, this stage applies K-Means clustering separately to Domestic (UK) and International (non-UK) customer subsets. Both subsets originate from the same RFM table. However, they are split only at the modeling stage to allow market-specific segmentation. The goal is to uncover behaviourally distinct customer segments in each market, and to compare how these segments differ in size, value and engagement.
 
 Once the unified RFM table is split into Domestic and International subsets, the modeling steps applied to each subset are the same:
 
@@ -346,7 +346,7 @@ Key Insights:
     * Strong potential for uplift through targeted retention programmes
 
 * Potential Loyalists as a growth lever:
-    * This segment represents a large share of the customer base and shows strong potential to move into higher-value behaviour with the right incentives.
+    * This segment represents an important share of the customer base and shows strong potential to move into higher-value behaviour with the right incentives.
 
 #### Domestic Revenue Uplift Scenarios:
 
