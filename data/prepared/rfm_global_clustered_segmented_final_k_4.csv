@@ -1,422 +1,422 @@
 CustomerID,Recency,Frequency,Monetary,Country,Customer_Region,Cluster,Segment
-12347,1,7,4310.0,Iceland,International,0,Potential Loyalists
-12348,74,4,1797.24,Finland,International,2,VIP / Champions
-12349,18,1,1757.55,Italy,International,3,At-Risk
-12350,309,1,334.4,Norway,International,1,Loyal Customers
-12352,35,8,2506.04,Norway,International,2,VIP / Champions
-12353,203,1,89.0,Bahrain,International,1,Loyal Customers
-12354,231,1,1079.4,Spain,International,1,Loyal Customers
-12355,213,1,459.4,Bahrain,International,1,Loyal Customers
-12356,22,3,2811.43,Portugal,International,2,VIP / Champions
-12357,32,1,6207.67,Switzerland,International,2,VIP / Champions
-12358,1,2,1168.06,Austria,International,3,At-Risk
-12359,57,4,6310.03,Cyprus,International,2,VIP / Champions
-12360,51,3,2662.06,Austria,International,2,VIP / Champions
-12361,286,1,189.9,Belgium,International,1,Loyal Customers
-12362,2,10,5226.23,Belgium,International,0,Potential Loyalists
-12364,7,4,1313.1,Belgium,International,3,At-Risk
-12365,290,2,641.38,Cyprus,International,1,Loyal Customers
-12367,3,1,168.9,Denmark,International,3,At-Risk
-12370,50,4,3541.94,Cyprus,International,2,VIP / Champions
-12370,50,4,3541.94,Austria,International,2,VIP / Champions
-12371,44,2,1887.96,Switzerland,International,2,VIP / Champions
-12372,71,3,1298.04,Denmark,International,2,VIP / Champions
-12373,310,1,364.6,Austria,International,1,Loyal Customers
-12374,24,1,742.9300000000001,Austria,International,3,At-Risk
-12375,10,2,457.5,Finland,International,3,At-Risk
-12377,314,2,1628.12,Switzerland,International,1,Loyal Customers
-12378,129,1,4008.62,Switzerland,International,2,VIP / Champions
-12379,81,2,852.24,Belgium,International,1,Loyal Customers
-12380,21,4,2724.81,Belgium,International,2,VIP / Champions
-12381,4,5,1845.31,Norway,International,0,Potential Loyalists
-12383,184,5,1850.56,Belgium,International,2,VIP / Champions
-12384,28,2,585.27,Switzerland,International,3,At-Risk
-12386,337,2,401.9,Australia,International,1,Loyal Customers
-12388,15,6,2780.66,Australia,International,0,Potential Loyalists
-12390,79,1,549.84,Belgium,International,1,Loyal Customers
-12391,21,1,439.66,Cyprus,International,3,At-Risk
-12393,71,4,1582.6,Australia,International,2,VIP / Champions
-12394,63,2,1272.48,Belgium,International,2,VIP / Champions
-12394,63,2,1272.48,Denmark,International,2,VIP / Champions
-12395,18,12,3018.63,Belgium,International,0,Potential Loyalists
-12397,35,2,2409.9,Belgium,International,2,VIP / Champions
-12398,45,1,1635.66,Switzerland,International,2,VIP / Champions
-12399,118,4,1108.65,Belgium,International,2,VIP / Champions
-12401,302,1,84.3,Belgium,International,1,Loyal Customers
-12402,322,1,225.6,Belgium,International,1,Loyal Customers
-12403,49,1,427.7,Denmark,International,1,Loyal Customers
-12405,148,1,1710.39,Finland,International,1,Loyal Customers
-12406,21,2,3415.3,Denmark,International,2,VIP / Champions
-12407,49,5,1708.12,Belgium,International,2,VIP / Champions
-12408,32,5,2888.55,Belgium,International,2,VIP / Champions
-12409,78,3,11072.67,Switzerland,International,2,VIP / Champions
-12410,308,2,693.3299999999999,Switzerland,International,1,Loyal Customers
-12412,74,3,1226.88,Denmark,International,2,VIP / Champions
-12413,66,3,758.1,France,International,2,VIP / Champions
-12414,216,3,562.41,Austria,International,1,Loyal Customers
-12415,23,21,124914.53,Australia,International,0,Potential Loyalists
-12417,2,9,3649.1,Belgium,International,0,Potential Loyalists
-12417,2,9,3649.1,Spain,International,0,Potential Loyalists
-12418,112,1,668.58,Switzerland,International,1,Loyal Customers
-12420,63,1,600.39,Cyprus,International,1,Loyal Customers
-12421,15,4,807.04,Spain,International,3,At-Risk
-12422,95,3,803.5600000000001,Australia,International,2,VIP / Champions
-12422,95,3,803.5600000000001,Switzerland,International,2,VIP / Champions
-12423,0,8,1859.31,Belgium,International,0,Potential Loyalists
-12424,162,2,1760.96,Australia,International,2,VIP / Champions
-12425,77,1,777.2,Portugal,International,1,Loyal Customers
-12426,194,1,582.73,Germany,International,1,Loyal Customers
-12427,21,3,825.8,Germany,International,3,At-Risk
-12428,25,9,7956.46,Finland,International,0,Potential Loyalists
-12429,8,4,3750.4,Denmark,International,0,Potential Loyalists
-12429,8,4,3750.4,Austria,International,0,Potential Loyalists
-12430,42,1,256.4,Norway,International,1,Loyal Customers
-12431,35,15,6419.95,Australia,International,0,Potential Loyalists
-12431,35,15,6419.95,Belgium,International,0,Potential Loyalists
-12432,42,5,5059.32,Norway,International,2,VIP / Champions
-12433,0,7,13375.87,Norway,International,0,Potential Loyalists
-12434,84,2,806.14,Australia,International,1,Loyal Customers
-12435,79,2,7829.89,Denmark,International,2,VIP / Champions
-12436,99,1,509.01,Norway,International,1,Loyal Customers
-12437,1,18,4951.41,France,International,0,Potential Loyalists
-12438,13,2,2906.85,Norway,International,2,VIP / Champions
-12441,366,1,173.55,France,International,1,Loyal Customers
-12442,2,1,172.06,Spain,International,3,At-Risk
-12444,20,5,5005.46,Norway,International,2,VIP / Champions
-12445,21,1,133.4,Spain,International,3,At-Risk
-12446,57,1,1002.31,South Africa,International,1,Loyal Customers
-12447,242,1,476.49,Belgium,International,1,Loyal Customers
-12448,43,1,449.45,Spain,International,1,Loyal Customers
-12449,21,4,4067.29,Belgium,International,2,VIP / Champions
-12450,155,2,197.88,Spain,International,1,Loyal Customers
-12451,10,5,9035.52,Switzerland,International,0,Potential Loyalists
-12452,16,2,430.57,Switzerland,International,3,At-Risk
-12453,133,1,707.09,Austria,International,1,Loyal Customers
-12454,55,1,3528.34,Spain,International,2,VIP / Champions
-12455,72,6,2466.86,Cyprus,International,2,VIP / Champions
-12455,72,6,2466.86,Spain,International,2,VIP / Champions
-12456,43,3,3181.04,Switzerland,International,2,VIP / Champions
-12457,65,7,2363.23,Switzerland,International,2,VIP / Champions
-12457,65,7,2363.23,Cyprus,International,2,VIP / Champions
-12458,70,2,947.4,Switzerland,International,2,VIP / Champions
-12461,93,2,826.88,Switzerland,International,1,Loyal Customers
-12462,18,2,1189.59,Spain,International,3,At-Risk
-12463,52,4,1344.78,Belgium,International,2,VIP / Champions
-12464,9,8,1212.05,Belgium,International,0,Potential Loyalists
-12465,16,2,742.1899999999999,Belgium,International,3,At-Risk
-12468,187,2,729.5400000000001,Germany,International,1,Loyal Customers
-12471,1,30,19788.65,Germany,International,0,Potential Loyalists
-12472,31,7,6572.11,Germany,International,0,Potential Loyalists
-12473,28,5,3928.05,Germany,International,2,VIP / Champions
-12474,16,18,7324.09,Germany,International,0,Potential Loyalists
-12475,53,1,723.38,Germany,International,1,Loyal Customers
-12476,15,11,6816.42,Germany,International,0,Potential Loyalists
-12477,22,6,13219.74,Germany,International,0,Potential Loyalists
-12478,3,1,680.99,Greece,International,3,At-Risk
-12479,10,1,527.2,Germany,International,3,At-Risk
-12480,27,4,3281.63,Germany,International,2,VIP / Champions
-12481,22,10,5579.82,Germany,International,0,Potential Loyalists
-12483,16,8,2484.98,Sweden,International,0,Potential Loyalists
-12484,32,6,4527.32,Spain,International,2,VIP / Champions
-12488,9,3,1298.66,France,International,3,At-Risk
-12489,335,1,334.93,France,International,1,Loyal Customers
-12490,4,10,5417.93,France,International,0,Potential Loyalists
-12491,38,1,460.4,France,International,3,At-Risk
-12492,62,2,263.21000000000004,Germany,International,1,Loyal Customers
-12493,165,2,433.74,France,International,1,Loyal Customers
-12494,15,7,1246.1,France,International,2,VIP / Champions
-12497,81,1,1043.1,Germany,International,1,Loyal Customers
-12498,20,3,403.7000000000001,Germany,International,3,At-Risk
-12500,22,11,4257.82,Germany,International,0,Potential Loyalists
-12501,336,1,2169.39,Germany,International,1,Loyal Customers
-12502,95,5,3723.87,Spain,International,2,VIP / Champions
-12504,17,2,482.05,Germany,International,3,At-Risk
-12506,232,1,73.5,France,International,1,Loyal Customers
-12507,133,3,1304.81,Spain,International,2,VIP / Champions
-12508,25,2,397.88,France,International,3,At-Risk
-12509,283,1,176.5,France,International,1,Loyal Customers
-12510,142,2,982.57,Spain,International,1,Loyal Customers
-12512,65,2,132.18,Israel,International,1,Loyal Customers
-12513,112,1,612.29,France,International,1,Loyal Customers
-12514,266,1,1017.68,Italy,International,1,Loyal Customers
-12515,352,1,383.7,Italy,International,1,Loyal Customers
-12516,77,2,1312.06,Germany,International,2,VIP / Champions
-12517,27,5,2481.6,Germany,International,2,VIP / Champions
-12518,0,5,2056.89,Germany,International,0,Potential Loyalists
-12519,63,1,330.84,Germany,International,1,Loyal Customers
-12520,78,5,2634.26,Germany,International,2,VIP / Champions
-12521,142,1,599.68,Germany,International,1,Loyal Customers
-12522,38,2,192.72,Germany,International,3,At-Risk
-12523,18,11,1789.77,France,International,0,Potential Loyalists
-12524,8,8,4485.72,Germany,International,0,Potential Loyalists
-12526,0,3,1316.66,Germany,International,3,At-Risk
-12527,81,3,348.71000000000004,Germany,International,1,Loyal Customers
-12528,8,6,1933.48,Germany,International,0,Potential Loyalists
-12530,59,4,1662.28,Germany,International,2,VIP / Champions
-12531,14,1,125.22,Germany,International,3,At-Risk
-12532,29,1,349.83000000000004,France,International,3,At-Risk
-12534,130,1,1089.18,Germany,International,1,Loyal Customers
-12535,91,2,716.35,France,International,1,Loyal Customers
-12536,42,3,12601.830000000002,France,International,2,VIP / Champions
-12538,28,1,363.95,Spain,International,3,At-Risk
-12539,21,4,5568.35,Spain,International,2,VIP / Champions
-12540,19,17,13400.24,Spain,International,0,Potential Loyalists
-12541,29,3,981.18,Spain,International,2,VIP / Champions
-12544,35,1,372.7,Spain,International,3,At-Risk
-12545,74,2,1000.39,Spain,International,2,VIP / Champions
-12546,46,2,1161.5,Spain,International,2,VIP / Champions
-12547,197,2,207.8,Spain,International,1,Loyal Customers
-12548,165,1,95.2,Spain,International,1,Loyal Customers
-12550,78,1,964.83,Spain,International,1,Loyal Customers
-12551,357,1,168.0,Spain,International,1,Loyal Customers
-12552,38,2,437.82,Italy,International,3,At-Risk
-12553,7,10,3692.28,France,International,0,Potential Loyalists
-12556,49,2,599.56,Spain,International,1,Loyal Customers
-12557,15,5,11990.96,Spain,International,0,Potential Loyalists
-12558,7,1,269.96,United States,International,3,At-Risk
-12559,310,2,561.71,Germany,International,1,Loyal Customers
-12560,4,3,2134.01,Germany,International,3,At-Risk
-12561,302,1,238.85,Germany,International,1,Loyal Customers
-12562,7,7,3781.74,France,International,0,Potential Loyalists
-12564,260,1,456.9,France,International,1,Loyal Customers
-12565,288,1,145.92,Saudi Arabia,International,1,Loyal Customers
-12566,85,1,351.65,Germany,International,1,Loyal Customers
-12567,22,10,9401.28,France,International,0,Potential Loyalists
-12569,1,32,4124.69,Germany,International,0,Potential Loyalists
-12571,39,2,519.61,France,International,3,At-Risk
-12572,8,2,1020.42,Germany,International,3,At-Risk
-12573,226,1,160.54000000000002,France,International,1,Loyal Customers
-12574,315,1,218.45,France,International,1,Loyal Customers
-12576,35,5,1315.83,Poland,International,2,VIP / Champions
-12577,34,3,626.6,France,International,3,At-Risk
-12578,20,2,2794.51,Italy,International,2,VIP / Champions
-12579,77,1,440.42,France,International,1,Loyal Customers
-12580,246,1,415.7,Germany,International,1,Loyal Customers
-12581,39,1,197.71,Germany,International,1,Loyal Customers
-12582,238,2,511.36,Finland,International,1,Loyal Customers
-12583,2,15,7281.38,France,International,0,Potential Loyalists
-12584,3,9,2338.15,Italy,International,0,Potential Loyalists
-12585,233,2,2040.1,Germany,International,2,VIP / Champions
-12586,16,1,196.94000000000003,Italy,International,3,At-Risk
-12587,7,1,144.0,Finland,International,3,At-Risk
-12588,38,1,214.9,Finland,International,1,Loyal Customers
-12589,28,2,646.68,France,International,3,At-Risk
-12590,210,2,9864.26,Germany,International,2,VIP / Champions
-12591,316,1,452.85,Italy,International,1,Loyal Customers
-12592,91,2,437.6,Germany,International,1,Loyal Customers
-12593,108,3,418.1,France,International,1,Loyal Customers
-12594,37,10,3338.2200000000003,Italy,International,0,Potential Loyalists
-12596,50,2,618.27,Spain,International,1,Loyal Customers
-12597,18,4,3811.22,Spain,International,2,VIP / Champions
-12598,9,8,3023.08,France,International,0,Potential Loyalists
-12599,28,7,1032.58,France,International,2,VIP / Champions
-12600,28,10,2599.04,Germany,International,0,Potential Loyalists
-12601,189,5,577.0600000000001,Germany,International,2,VIP / Champions
-12602,58,1,153.12,France,International,1,Loyal Customers
-12603,21,1,739.1999999999999,Germany,International,3,At-Risk
-12604,78,2,254.18,France,International,1,Loyal Customers
-12607,59,1,1579.51,United States,International,2,VIP / Champions
-12609,77,3,1126.85,Germany,International,2,VIP / Champions
-12610,22,5,2099.54,Italy,International,2,VIP / Champions
-12611,51,1,1193.32,Italy,International,1,Loyal Customers
-12612,73,1,704.0400000000001,Germany,International,1,Loyal Customers
-12613,56,5,3344.38,Germany,International,2,VIP / Champions
-12614,277,1,315.6,Germany,International,1,Loyal Customers
-12615,1,4,2291.19,France,International,0,Potential Loyalists
-12616,94,2,713.3,France,International,1,Loyal Customers
-12617,28,1,352.98,France,International,3,At-Risk
-12618,21,1,177.31,Italy,International,3,At-Risk
-12619,15,9,3641.24,Germany,International,0,Potential Loyalists
-12620,14,3,1339.41,France,International,3,At-Risk
-12621,1,20,13689.67,Germany,International,0,Potential Loyalists
-12622,231,1,180.1,Germany,International,1,Loyal Customers
-12623,275,1,305.1,Germany,International,1,Loyal Customers
-12624,105,2,641.13,France,International,1,Loyal Customers
-12625,211,2,2683.82,Germany,International,2,VIP / Champions
-12626,22,9,6620.48,Germany,International,0,Potential Loyalists
-12627,10,7,4478.53,Germany,International,0,Potential Loyalists
-12628,3,3,786.46,Germany,International,3,At-Risk
-12630,9,2,1270.88,Finland,International,3,At-Risk
-12631,56,1,640.5,Finland,International,1,Loyal Customers
-12633,58,4,2163.98,Germany,International,2,VIP / Champions
-12635,89,2,1689.18,Germany,International,2,VIP / Champions
-12637,66,8,6002.9,France,International,2,VIP / Champions
-12638,32,1,671.69,Sweden,International,3,At-Risk
-12639,238,1,486.1,Sweden,International,1,Loyal Customers
-12640,23,3,1174.58,France,International,2,VIP / Champions
-12641,114,1,185.9,Sweden,International,1,Loyal Customers
-12642,24,3,1013.26,Germany,International,2,VIP / Champions
-12643,127,6,3344.64,France,International,2,VIP / Champions
-12644,129,1,477.91,Germany,International,1,Loyal Customers
-12645,33,4,1775.18,Germany,International,2,VIP / Champions
-12646,4,2,1346.97,United States,International,3,At-Risk
-12647,21,12,3722.82,Germany,International,0,Potential Loyalists
-12648,154,1,318.05,Germany,International,1,Loyal Customers
-12649,106,3,623.51,Germany,International,1,Loyal Customers
-12650,2,1,314.44,France,International,3,At-Risk
-12651,334,1,114.0,France,International,1,Loyal Customers
-12652,330,1,919.98,France,International,1,Loyal Customers
-12653,148,2,2209.85,Israel,International,2,VIP / Champions
-12654,10,5,601.98,Germany,International,3,At-Risk
-12656,16,5,4051.17,France,International,2,VIP / Champions
-12657,10,4,1643.18,France,International,2,VIP / Champions
-12658,18,1,686.05,Germany,International,3,At-Risk
-12659,29,1,91.68,France,International,3,At-Risk
-12660,10,1,245.1,France,International,3,At-Risk
-12662,0,11,3849.78,Germany,International,0,Potential Loyalists
-12664,7,9,4881.88,Finland,International,0,Potential Loyalists
-12665,324,1,63.0,Germany,International,1,Loyal Customers
-12667,57,1,620.13,Finland,International,1,Loyal Customers
-12668,11,4,3807.15,Germany,International,2,VIP / Champions
-12669,150,3,2744.03,France,International,2,VIP / Champions
-12670,9,5,2996.05,France,International,0,Potential Loyalists
-12672,329,1,225.9,France,International,1,Loyal Customers
-12673,4,2,610.52,Germany,International,3,At-Risk
-12674,38,4,1970.6,France,International,2,VIP / Champions
-12676,24,6,1331.39,Sweden,International,2,VIP / Champions
-12678,41,12,17628.46,France,International,0,Potential Loyalists
-12679,58,4,1113.02,France,International,2,VIP / Champions
-12680,0,4,862.81,France,International,3,At-Risk
-12681,14,22,13787.54,France,International,0,Potential Loyalists
-12682,3,31,12279.82,France,International,0,Potential Loyalists
-12683,3,15,8476.57,France,International,0,Potential Loyalists
-12684,7,7,2283.63,France,International,0,Potential Loyalists
-12685,27,6,2863.08,France,International,2,VIP / Champions
-12686,371,1,89.14,France,International,1,Loyal Customers
-12688,113,1,4873.81,Israel,International,2,VIP / Champions
-12689,25,2,1247.61,France,International,3,At-Risk
-12690,205,1,389.01,France,International,1,Loyal Customers
-12691,27,6,1035.8,France,International,2,VIP / Champions
-12693,126,4,855.91,Germany,International,2,VIP / Champions
-12694,69,2,869.67,France,International,2,VIP / Champions
-12695,6,4,582.1,France,International,3,At-Risk
-12697,28,3,957.59,Sweden,International,2,VIP / Champions
-12700,7,4,4939.99,France,International,0,Potential Loyalists
-12701,79,2,797.71,Germany,International,1,Loyal Customers
-12702,19,1,219.0,Germany,International,3,At-Risk
-12703,70,1,283.55,Germany,International,1,Loyal Customers
-12704,6,8,2340.84,Finland,International,0,Potential Loyalists
-12705,14,9,6868.29,Germany,International,0,Potential Loyalists
-12707,291,1,603.42,France,International,1,Loyal Customers
-12708,29,10,2712.91,Germany,International,0,Potential Loyalists
-12709,14,15,9706.52,Germany,International,0,Potential Loyalists
-12710,96,3,1149.02,Germany,International,2,VIP / Champions
-12712,28,13,4396.13,Germany,International,0,Potential Loyalists
-12713,0,1,848.55,Germany,International,3,At-Risk
-12714,8,5,4708.86,France,International,0,Potential Loyalists
-12715,105,1,343.36,Sweden,International,1,Loyal Customers
-12716,3,2,1053.49,France,International,3,At-Risk
-12717,150,2,1030.98,Greece,International,1,Loyal Customers
-12718,70,1,238.25,France,International,1,Loyal Customers
-12719,4,2,644.95,France,International,3,At-Risk
-12720,2,25,5781.73,Germany,International,0,Potential Loyalists
-12721,31,6,2656.13,France,International,2,VIP / Champions
-12722,84,4,997.63,France,International,2,VIP / Champions
-12723,3,5,725.07,France,International,3,At-Risk
-12724,4,4,1031.41,France,International,3,At-Risk
-12725,370,1,427.8,Italy,International,1,Loyal Customers
-12726,27,7,2609.1,France,International,2,VIP / Champions
-12727,10,7,3980.7,France,International,0,Potential Loyalists
-12728,70,4,836.33,France,International,2,VIP / Champions
-12729,113,1,453.01,France,International,1,Loyal Customers
-12731,23,12,18895.91,France,International,0,Potential Loyalists
-12732,179,1,236.26,France,International,1,Loyal Customers
-12733,233,1,383.95,United States,International,1,Loyal Customers
-12734,352,1,110.4,France,International,1,Loyal Customers
-12735,314,2,779.5699999999999,France,International,1,Loyal Customers
-12736,332,1,234.0,France,International,1,Loyal Customers
-12738,371,1,155.35,Germany,International,1,Loyal Customers
-12739,77,2,1013.04,United Arab Emirates,International,2,VIP / Champions
-12740,63,1,427.6,France,International,1,Loyal Customers
-12744,51,7,21279.29,Singapore,International,0,Potential Loyalists
-12750,128,1,275.88,Poland,International,1,Loyal Customers
-12752,80,1,4366.78,Norway,International,2,VIP / Champions
-12753,22,6,21429.39,Japan,International,0,Potential Loyalists
-12754,235,3,3010.74,Japan,International,2,VIP / Champions
-12755,280,2,3811.95,Japan,International,2,VIP / Champions
-12756,86,1,112.07999999999998,Japan,International,1,Loyal Customers
-12757,15,13,7834.650000000001,Portugal,International,0,Potential Loyalists
-12758,116,2,2791.59,Portugal,International,2,VIP / Champions
-12759,51,3,1531.44,Netherlands,International,2,VIP / Champions
-12762,7,2,1898.52,Portugal,International,3,At-Risk
-12763,137,2,494.08,Japan,International,1,Loyal Customers
-12764,316,1,1693.88,Lebanon,International,1,Loyal Customers
-12766,3,7,6989.63,Portugal,International,0,Potential Loyalists
-12769,238,1,1143.6,Brazil,International,1,Loyal Customers
-12770,210,1,1351.45,Japan,International,1,Loyal Customers
-12772,59,1,892.47,Portugal,International,1,Loyal Customers
-12775,16,5,1386.04,Netherlands,International,2,VIP / Champions
-12778,19,6,822.23,Netherlands,International,2,VIP / Champions
-12779,37,8,3981.36,Poland,International,0,Potential Loyalists
-12781,63,2,826.74,Czech Republic,International,2,VIP / Champions
-12782,4,5,2330.92,Portugal,International,0,Potential Loyalists
-12783,1,6,2225.91,Portugal,International,0,Potential Loyalists
-12784,8,2,532.8199999999999,Portugal,International,3,At-Risk
-12785,363,1,311.95,Portugal,International,1,Loyal Customers
-12787,9,3,463.66,Netherlands,International,3,At-Risk
-12789,64,1,91.85,Netherlands,International,1,Loyal Customers
-12790,191,1,324.92,Netherlands,International,1,Loyal Customers
-12791,373,1,192.6,Netherlands,International,1,Loyal Customers
-12792,256,1,400.54,Portugal,International,1,Loyal Customers
-12793,334,2,545.48,Portugal,International,1,Loyal Customers
-12794,52,2,860.41,Portugal,International,2,VIP / Champions
-12795,18,1,430.48,Portugal,International,3,At-Risk
-12797,365,1,254.03,Portugal,International,1,Loyal Customers
-12798,9,3,6977.04,Japan,International,2,VIP / Champions
-12802,186,1,427.58,Netherlands,International,1,Loyal Customers
-12808,36,3,483.65,Portugal,International,3,At-Risk
-12809,177,1,489.31,Portugal,International,1,Loyal Customers
-12811,260,3,514.85,Portugal,International,1,Loyal Customers
-12812,44,1,229.64,Japan,International,1,Loyal Customers
-12814,101,1,125.92,Poland,International,1,Loyal Customers
-12815,147,2,1063.46,Poland,International,1,Loyal Customers
-12816,95,2,572.2,Poland,International,1,Loyal Customers
-12817,280,1,166.04,Austria,International,1,Loyal Customers
-12818,261,1,1542.08,Austria,International,1,Loyal Customers
-12865,25,2,1568.23,Austria,International,2,VIP / Champions
-12866,282,1,559.12,Belgium,International,1,Loyal Customers
-12876,57,2,2218.02,Belgium,International,2,VIP / Champions
-13492,135,3,1269.84,Switzerland,International,2,VIP / Champions
-13493,274,2,618.63,Switzerland,International,1,Loyal Customers
-13501,287,1,1340.32,Switzerland,International,1,Loyal Customers
-13505,72,4,4393.63,Switzerland,International,2,VIP / Champions
-13520,58,6,3624.35,Switzerland,International,2,VIP / Champions
-13809,304,1,155.05,Cyprus,International,1,Loyal Customers
-13810,28,3,1499.01,Germany,International,2,VIP / Champions
-13811,183,3,814.5,Germany,International,1,Loyal Customers
-13812,41,3,539.0,Germany,International,3,At-Risk
-13813,39,4,1366.86,Germany,International,2,VIP / Champions
-13814,91,2,1579.12,Germany,International,2,VIP / Champions
-13815,21,4,4027.36,Germany,International,2,VIP / Champions
-13816,23,2,571.6700000000001,Germany,International,3,At-Risk
-13817,28,2,382.98,Germany,International,3,At-Risk
-13919,58,2,384.81,Denmark,International,1,Loyal Customers
-14016,161,4,4341.21,Ireland,International,2,VIP / Champions
-14156,9,55,117210.08,Ireland,International,0,Potential Loyalists
-14277,14,3,4188.0,France,International,2,VIP / Champions
-14335,15,2,454.86,Germany,International,3,At-Risk
-14439,319,1,2661.24,Greece,International,1,Loyal Customers
-14442,204,2,1589.82,Channel Islands,International,2,VIP / Champions
-14566,110,1,1432.0,Channel Islands,International,1,Loyal Customers
-14646,1,73,280206.02,Netherlands,International,0,Potential Loyalists
-14911,0,201,143711.17,Ireland,International,0,Potential Loyalists
-14912,16,2,867.85,Italy,International,3,At-Risk
-14930,108,3,2362.96,Channel Islands,International,2,VIP / Champions
-14931,4,5,1257.68,Channel Islands,International,3,At-Risk
-14932,365,1,363.53,Channel Islands,International,1,Loyal Customers
-14934,81,2,1890.94,Channel Islands,International,2,VIP / Champions
-14935,296,1,1784.71,Channel Islands,International,1,Loyal Customers
-14936,33,8,8137.02,Channel Islands,International,0,Potential Loyalists
-14937,56,3,1621.88,Channel Islands,International,2,VIP / Champions
-15332,365,4,1661.06,Lithuania,International,2,VIP / Champions
-15388,269,1,140.54,Canada,International,1,Loyal Customers
-15480,115,1,905.5,Malta,International,1,Loyal Customers
-16321,71,5,373.65,Australia,International,2,VIP / Champions
-17097,1,8,954.42,Spain,International,0,Potential Loyalists
-17404,3,15,31906.82,Sweden,International,0,Potential Loyalists
-17443,219,1,534.24,Canada,International,1,Loyal Customers
-17444,147,3,2940.04,Canada,International,2,VIP / Champions
-17508,280,1,387.31,Greece,International,1,Loyal Customers
-17828,22,4,1820.09,Malta,International,2,VIP / Champions
-17829,298,1,889.24,United Arab Emirates,International,1,Loyal Customers
-17844,106,1,51.56,Canada,International,1,Loyal Customers
+12347,1,7,4310.0,Iceland,International,0,VIP / Champions
+12348,74,4,1797.24,Finland,International,2,Loyal Customers
+12349,18,1,1757.55,Italy,International,3,Potential Loyalists
+12350,309,1,334.4,Norway,International,1,At-Risk
+12352,35,8,2506.04,Norway,International,2,Loyal Customers
+12353,203,1,89.0,Bahrain,International,1,At-Risk
+12354,231,1,1079.4,Spain,International,1,At-Risk
+12355,213,1,459.4,Bahrain,International,1,At-Risk
+12356,22,3,2811.43,Portugal,International,2,Loyal Customers
+12357,32,1,6207.67,Switzerland,International,2,Loyal Customers
+12358,1,2,1168.06,Austria,International,3,Potential Loyalists
+12359,57,4,6310.03,Cyprus,International,2,Loyal Customers
+12360,51,3,2662.06,Austria,International,2,Loyal Customers
+12361,286,1,189.9,Belgium,International,1,At-Risk
+12362,2,10,5226.23,Belgium,International,0,VIP / Champions
+12364,7,4,1313.1,Belgium,International,3,Potential Loyalists
+12365,290,2,641.38,Cyprus,International,1,At-Risk
+12367,3,1,168.9,Denmark,International,3,Potential Loyalists
+12370,50,4,3541.94,Cyprus,International,2,Loyal Customers
+12370,50,4,3541.94,Austria,International,2,Loyal Customers
+12371,44,2,1887.96,Switzerland,International,2,Loyal Customers
+12372,71,3,1298.04,Denmark,International,2,Loyal Customers
+12373,310,1,364.6,Austria,International,1,At-Risk
+12374,24,1,742.9300000000001,Austria,International,3,Potential Loyalists
+12375,10,2,457.5,Finland,International,3,Potential Loyalists
+12377,314,2,1628.12,Switzerland,International,1,At-Risk
+12378,129,1,4008.62,Switzerland,International,2,Loyal Customers
+12379,81,2,852.24,Belgium,International,1,At-Risk
+12380,21,4,2724.81,Belgium,International,2,Loyal Customers
+12381,4,5,1845.31,Norway,International,0,VIP / Champions
+12383,184,5,1850.56,Belgium,International,2,Loyal Customers
+12384,28,2,585.27,Switzerland,International,3,Potential Loyalists
+12386,337,2,401.9,Australia,International,1,At-Risk
+12388,15,6,2780.66,Australia,International,0,VIP / Champions
+12390,79,1,549.84,Belgium,International,1,At-Risk
+12391,21,1,439.66,Cyprus,International,3,Potential Loyalists
+12393,71,4,1582.6,Australia,International,2,Loyal Customers
+12394,63,2,1272.48,Belgium,International,2,Loyal Customers
+12394,63,2,1272.48,Denmark,International,2,Loyal Customers
+12395,18,12,3018.63,Belgium,International,0,VIP / Champions
+12397,35,2,2409.9,Belgium,International,2,Loyal Customers
+12398,45,1,1635.66,Switzerland,International,2,Loyal Customers
+12399,118,4,1108.65,Belgium,International,2,Loyal Customers
+12401,302,1,84.3,Belgium,International,1,At-Risk
+12402,322,1,225.6,Belgium,International,1,At-Risk
+12403,49,1,427.7,Denmark,International,1,At-Risk
+12405,148,1,1710.39,Finland,International,1,At-Risk
+12406,21,2,3415.3,Denmark,International,2,Loyal Customers
+12407,49,5,1708.12,Belgium,International,2,Loyal Customers
+12408,32,5,2888.55,Belgium,International,2,Loyal Customers
+12409,78,3,11072.67,Switzerland,International,2,Loyal Customers
+12410,308,2,693.3299999999999,Switzerland,International,1,At-Risk
+12412,74,3,1226.88,Denmark,International,2,Loyal Customers
+12413,66,3,758.1,France,International,2,Loyal Customers
+12414,216,3,562.41,Austria,International,1,At-Risk
+12415,23,21,124914.53,Australia,International,0,VIP / Champions
+12417,2,9,3649.1,Belgium,International,0,VIP / Champions
+12417,2,9,3649.1,Spain,International,0,VIP / Champions
+12418,112,1,668.58,Switzerland,International,1,At-Risk
+12420,63,1,600.39,Cyprus,International,1,At-Risk
+12421,15,4,807.04,Spain,International,3,Potential Loyalists
+12422,95,3,803.5600000000001,Australia,International,2,Loyal Customers
+12422,95,3,803.5600000000001,Switzerland,International,2,Loyal Customers
+12423,0,8,1859.31,Belgium,International,0,VIP / Champions
+12424,162,2,1760.96,Australia,International,2,Loyal Customers
+12425,77,1,777.2,Portugal,International,1,At-Risk
+12426,194,1,582.73,Germany,International,1,At-Risk
+12427,21,3,825.8,Germany,International,3,Potential Loyalists
+12428,25,9,7956.46,Finland,International,0,VIP / Champions
+12429,8,4,3750.4,Denmark,International,0,VIP / Champions
+12429,8,4,3750.4,Austria,International,0,VIP / Champions
+12430,42,1,256.4,Norway,International,1,At-Risk
+12431,35,15,6419.95,Australia,International,0,VIP / Champions
+12431,35,15,6419.95,Belgium,International,0,VIP / Champions
+12432,42,5,5059.32,Norway,International,2,Loyal Customers
+12433,0,7,13375.87,Norway,International,0,VIP / Champions
+12434,84,2,806.14,Australia,International,1,At-Risk
+12435,79,2,7829.89,Denmark,International,2,Loyal Customers
+12436,99,1,509.01,Norway,International,1,At-Risk
+12437,1,18,4951.41,France,International,0,VIP / Champions
+12438,13,2,2906.85,Norway,International,2,Loyal Customers
+12441,366,1,173.55,France,International,1,At-Risk
+12442,2,1,172.06,Spain,International,3,Potential Loyalists
+12444,20,5,5005.46,Norway,International,2,Loyal Customers
+12445,21,1,133.4,Spain,International,3,Potential Loyalists
+12446,57,1,1002.31,South Africa,International,1,At-Risk
+12447,242,1,476.49,Belgium,International,1,At-Risk
+12448,43,1,449.45,Spain,International,1,At-Risk
+12449,21,4,4067.29,Belgium,International,2,Loyal Customers
+12450,155,2,197.88,Spain,International,1,At-Risk
+12451,10,5,9035.52,Switzerland,International,0,VIP / Champions
+12452,16,2,430.57,Switzerland,International,3,Potential Loyalists
+12453,133,1,707.09,Austria,International,1,At-Risk
+12454,55,1,3528.34,Spain,International,2,Loyal Customers
+12455,72,6,2466.86,Cyprus,International,2,Loyal Customers
+12455,72,6,2466.86,Spain,International,2,Loyal Customers
+12456,43,3,3181.04,Switzerland,International,2,Loyal Customers
+12457,65,7,2363.23,Switzerland,International,2,Loyal Customers
+12457,65,7,2363.23,Cyprus,International,2,Loyal Customers
+12458,70,2,947.4,Switzerland,International,2,Loyal Customers
+12461,93,2,826.88,Switzerland,International,1,At-Risk
+12462,18,2,1189.59,Spain,International,3,Potential Loyalists
+12463,52,4,1344.78,Belgium,International,2,Loyal Customers
+12464,9,8,1212.05,Belgium,International,0,VIP / Champions
+12465,16,2,742.1899999999999,Belgium,International,3,Potential Loyalists
+12468,187,2,729.5400000000001,Germany,International,1,At-Risk
+12471,1,30,19788.65,Germany,International,0,VIP / Champions
+12472,31,7,6572.11,Germany,International,0,VIP / Champions
+12473,28,5,3928.05,Germany,International,2,Loyal Customers
+12474,16,18,7324.09,Germany,International,0,VIP / Champions
+12475,53,1,723.38,Germany,International,1,At-Risk
+12476,15,11,6816.42,Germany,International,0,VIP / Champions
+12477,22,6,13219.74,Germany,International,0,VIP / Champions
+12478,3,1,680.99,Greece,International,3,Potential Loyalists
+12479,10,1,527.2,Germany,International,3,Potential Loyalists
+12480,27,4,3281.63,Germany,International,2,Loyal Customers
+12481,22,10,5579.82,Germany,International,0,VIP / Champions
+12483,16,8,2484.98,Sweden,International,0,VIP / Champions
+12484,32,6,4527.32,Spain,International,2,Loyal Customers
+12488,9,3,1298.66,France,International,3,Potential Loyalists
+12489,335,1,334.93,France,International,1,At-Risk
+12490,4,10,5417.93,France,International,0,VIP / Champions
+12491,38,1,460.4,France,International,3,Potential Loyalists
+12492,62,2,263.21000000000004,Germany,International,1,At-Risk
+12493,165,2,433.74,France,International,1,At-Risk
+12494,15,7,1246.1,France,International,2,Loyal Customers
+12497,81,1,1043.1,Germany,International,1,At-Risk
+12498,20,3,403.7000000000001,Germany,International,3,Potential Loyalists
+12500,22,11,4257.82,Germany,International,0,VIP / Champions
+12501,336,1,2169.39,Germany,International,1,At-Risk
+12502,95,5,3723.87,Spain,International,2,Loyal Customers
+12504,17,2,482.05,Germany,International,3,Potential Loyalists
+12506,232,1,73.5,France,International,1,At-Risk
+12507,133,3,1304.81,Spain,International,2,Loyal Customers
+12508,25,2,397.88,France,International,3,Potential Loyalists
+12509,283,1,176.5,France,International,1,At-Risk
+12510,142,2,982.57,Spain,International,1,At-Risk
+12512,65,2,132.18,Israel,International,1,At-Risk
+12513,112,1,612.29,France,International,1,At-Risk
+12514,266,1,1017.68,Italy,International,1,At-Risk
+12515,352,1,383.7,Italy,International,1,At-Risk
+12516,77,2,1312.06,Germany,International,2,Loyal Customers
+12517,27,5,2481.6,Germany,International,2,Loyal Customers
+12518,0,5,2056.89,Germany,International,0,VIP / Champions
+12519,63,1,330.84,Germany,International,1,At-Risk
+12520,78,5,2634.26,Germany,International,2,Loyal Customers
+12521,142,1,599.68,Germany,International,1,At-Risk
+12522,38,2,192.72,Germany,International,3,Potential Loyalists
+12523,18,11,1789.77,France,International,0,VIP / Champions
+12524,8,8,4485.72,Germany,International,0,VIP / Champions
+12526,0,3,1316.66,Germany,International,3,Potential Loyalists
+12527,81,3,348.71000000000004,Germany,International,1,At-Risk
+12528,8,6,1933.48,Germany,International,0,VIP / Champions
+12530,59,4,1662.28,Germany,International,2,Loyal Customers
+12531,14,1,125.22,Germany,International,3,Potential Loyalists
+12532,29,1,349.83000000000004,France,International,3,Potential Loyalists
+12534,130,1,1089.18,Germany,International,1,At-Risk
+12535,91,2,716.35,France,International,1,At-Risk
+12536,42,3,12601.830000000002,France,International,2,Loyal Customers
+12538,28,1,363.95,Spain,International,3,Potential Loyalists
+12539,21,4,5568.35,Spain,International,2,Loyal Customers
+12540,19,17,13400.24,Spain,International,0,VIP / Champions
+12541,29,3,981.18,Spain,International,2,Loyal Customers
+12544,35,1,372.7,Spain,International,3,Potential Loyalists
+12545,74,2,1000.39,Spain,International,2,Loyal Customers
+12546,46,2,1161.5,Spain,International,2,Loyal Customers
+12547,197,2,207.8,Spain,International,1,At-Risk
+12548,165,1,95.2,Spain,International,1,At-Risk
+12550,78,1,964.83,Spain,International,1,At-Risk
+12551,357,1,168.0,Spain,International,1,At-Risk
+12552,38,2,437.82,Italy,International,3,Potential Loyalists
+12553,7,10,3692.28,France,International,0,VIP / Champions
+12556,49,2,599.56,Spain,International,1,At-Risk
+12557,15,5,11990.96,Spain,International,0,VIP / Champions
+12558,7,1,269.96,United States,International,3,Potential Loyalists
+12559,310,2,561.71,Germany,International,1,At-Risk
+12560,4,3,2134.01,Germany,International,3,Potential Loyalists
+12561,302,1,238.85,Germany,International,1,At-Risk
+12562,7,7,3781.74,France,International,0,VIP / Champions
+12564,260,1,456.9,France,International,1,At-Risk
+12565,288,1,145.92,Saudi Arabia,International,1,At-Risk
+12566,85,1,351.65,Germany,International,1,At-Risk
+12567,22,10,9401.28,France,International,0,VIP / Champions
+12569,1,32,4124.69,Germany,International,0,VIP / Champions
+12571,39,2,519.61,France,International,3,Potential Loyalists
+12572,8,2,1020.42,Germany,International,3,Potential Loyalists
+12573,226,1,160.54000000000002,France,International,1,At-Risk
+12574,315,1,218.45,France,International,1,At-Risk
+12576,35,5,1315.83,Poland,International,2,Loyal Customers
+12577,34,3,626.6,France,International,3,Potential Loyalists
+12578,20,2,2794.51,Italy,International,2,Loyal Customers
+12579,77,1,440.42,France,International,1,At-Risk
+12580,246,1,415.7,Germany,International,1,At-Risk
+12581,39,1,197.71,Germany,International,1,At-Risk
+12582,238,2,511.36,Finland,International,1,At-Risk
+12583,2,15,7281.38,France,International,0,VIP / Champions
+12584,3,9,2338.15,Italy,International,0,VIP / Champions
+12585,233,2,2040.1,Germany,International,2,Loyal Customers
+12586,16,1,196.94000000000003,Italy,International,3,Potential Loyalists
+12587,7,1,144.0,Finland,International,3,Potential Loyalists
+12588,38,1,214.9,Finland,International,1,At-Risk
+12589,28,2,646.68,France,International,3,Potential Loyalists
+12590,210,2,9864.26,Germany,International,2,Loyal Customers
+12591,316,1,452.85,Italy,International,1,At-Risk
+12592,91,2,437.6,Germany,International,1,At-Risk
+12593,108,3,418.1,France,International,1,At-Risk
+12594,37,10,3338.2200000000003,Italy,International,0,VIP / Champions
+12596,50,2,618.27,Spain,International,1,At-Risk
+12597,18,4,3811.22,Spain,International,2,Loyal Customers
+12598,9,8,3023.08,France,International,0,VIP / Champions
+12599,28,7,1032.58,France,International,2,Loyal Customers
+12600,28,10,2599.04,Germany,International,0,VIP / Champions
+12601,189,5,577.0600000000001,Germany,International,2,Loyal Customers
+12602,58,1,153.12,France,International,1,At-Risk
+12603,21,1,739.1999999999999,Germany,International,3,Potential Loyalists
+12604,78,2,254.18,France,International,1,At-Risk
+12607,59,1,1579.51,United States,International,2,Loyal Customers
+12609,77,3,1126.85,Germany,International,2,Loyal Customers
+12610,22,5,2099.54,Italy,International,2,Loyal Customers
+12611,51,1,1193.32,Italy,International,1,At-Risk
+12612,73,1,704.0400000000001,Germany,International,1,At-Risk
+12613,56,5,3344.38,Germany,International,2,Loyal Customers
+12614,277,1,315.6,Germany,International,1,At-Risk
+12615,1,4,2291.19,France,International,0,VIP / Champions
+12616,94,2,713.3,France,International,1,At-Risk
+12617,28,1,352.98,France,International,3,Potential Loyalists
+12618,21,1,177.31,Italy,International,3,Potential Loyalists
+12619,15,9,3641.24,Germany,International,0,VIP / Champions
+12620,14,3,1339.41,France,International,3,Potential Loyalists
+12621,1,20,13689.67,Germany,International,0,VIP / Champions
+12622,231,1,180.1,Germany,International,1,At-Risk
+12623,275,1,305.1,Germany,International,1,At-Risk
+12624,105,2,641.13,France,International,1,At-Risk
+12625,211,2,2683.82,Germany,International,2,Loyal Customers
+12626,22,9,6620.48,Germany,International,0,VIP / Champions
+12627,10,7,4478.53,Germany,International,0,VIP / Champions
+12628,3,3,786.46,Germany,International,3,Potential Loyalists
+12630,9,2,1270.88,Finland,International,3,Potential Loyalists
+12631,56,1,640.5,Finland,International,1,At-Risk
+12633,58,4,2163.98,Germany,International,2,Loyal Customers
+12635,89,2,1689.18,Germany,International,2,Loyal Customers
+12637,66,8,6002.9,France,International,2,Loyal Customers
+12638,32,1,671.69,Sweden,International,3,Potential Loyalists
+12639,238,1,486.1,Sweden,International,1,At-Risk
+12640,23,3,1174.58,France,International,2,Loyal Customers
+12641,114,1,185.9,Sweden,International,1,At-Risk
+12642,24,3,1013.26,Germany,International,2,Loyal Customers
+12643,127,6,3344.64,France,International,2,Loyal Customers
+12644,129,1,477.91,Germany,International,1,At-Risk
+12645,33,4,1775.18,Germany,International,2,Loyal Customers
+12646,4,2,1346.97,United States,International,3,Potential Loyalists
+12647,21,12,3722.82,Germany,International,0,VIP / Champions
+12648,154,1,318.05,Germany,International,1,At-Risk
+12649,106,3,623.51,Germany,International,1,At-Risk
+12650,2,1,314.44,France,International,3,Potential Loyalists
+12651,334,1,114.0,France,International,1,At-Risk
+12652,330,1,919.98,France,International,1,At-Risk
+12653,148,2,2209.85,Israel,International,2,Loyal Customers
+12654,10,5,601.98,Germany,International,3,Potential Loyalists
+12656,16,5,4051.17,France,International,2,Loyal Customers
+12657,10,4,1643.18,France,International,2,Loyal Customers
+12658,18,1,686.05,Germany,International,3,Potential Loyalists
+12659,29,1,91.68,France,International,3,Potential Loyalists
+12660,10,1,245.1,France,International,3,Potential Loyalists
+12662,0,11,3849.78,Germany,International,0,VIP / Champions
+12664,7,9,4881.88,Finland,International,0,VIP / Champions
+12665,324,1,63.0,Germany,International,1,At-Risk
+12667,57,1,620.13,Finland,International,1,At-Risk
+12668,11,4,3807.15,Germany,International,2,Loyal Customers
+12669,150,3,2744.03,France,International,2,Loyal Customers
+12670,9,5,2996.05,France,International,0,VIP / Champions
+12672,329,1,225.9,France,International,1,At-Risk
+12673,4,2,610.52,Germany,International,3,Potential Loyalists
+12674,38,4,1970.6,France,International,2,Loyal Customers
+12676,24,6,1331.39,Sweden,International,2,Loyal Customers
+12678,41,12,17628.46,France,International,0,VIP / Champions
+12679,58,4,1113.02,France,International,2,Loyal Customers
+12680,0,4,862.81,France,International,3,Potential Loyalists
+12681,14,22,13787.54,France,International,0,VIP / Champions
+12682,3,31,12279.82,France,International,0,VIP / Champions
+12683,3,15,8476.57,France,International,0,VIP / Champions
+12684,7,7,2283.63,France,International,0,VIP / Champions
+12685,27,6,2863.08,France,International,2,Loyal Customers
+12686,371,1,89.14,France,International,1,At-Risk
+12688,113,1,4873.81,Israel,International,2,Loyal Customers
+12689,25,2,1247.61,France,International,3,Potential Loyalists
+12690,205,1,389.01,France,International,1,At-Risk
+12691,27,6,1035.8,France,International,2,Loyal Customers
+12693,126,4,855.91,Germany,International,2,Loyal Customers
+12694,69,2,869.67,France,International,2,Loyal Customers
+12695,6,4,582.1,France,International,3,Potential Loyalists
+12697,28,3,957.59,Sweden,International,2,Loyal Customers
+12700,7,4,4939.99,France,International,0,VIP / Champions
+12701,79,2,797.71,Germany,International,1,At-Risk
+12702,19,1,219.0,Germany,International,3,Potential Loyalists
+12703,70,1,283.55,Germany,International,1,At-Risk
+12704,6,8,2340.84,Finland,International,0,VIP / Champions
+12705,14,9,6868.29,Germany,International,0,VIP / Champions
+12707,291,1,603.42,France,International,1,At-Risk
+12708,29,10,2712.91,Germany,International,0,VIP / Champions
+12709,14,15,9706.52,Germany,International,0,VIP / Champions
+12710,96,3,1149.02,Germany,International,2,Loyal Customers
+12712,28,13,4396.13,Germany,International,0,VIP / Champions
+12713,0,1,848.55,Germany,International,3,Potential Loyalists
+12714,8,5,4708.86,France,International,0,VIP / Champions
+12715,105,1,343.36,Sweden,International,1,At-Risk
+12716,3,2,1053.49,France,International,3,Potential Loyalists
+12717,150,2,1030.98,Greece,International,1,At-Risk
+12718,70,1,238.25,France,International,1,At-Risk
+12719,4,2,644.95,France,International,3,Potential Loyalists
+12720,2,25,5781.73,Germany,International,0,VIP / Champions
+12721,31,6,2656.13,France,International,2,Loyal Customers
+12722,84,4,997.63,France,International,2,Loyal Customers
+12723,3,5,725.07,France,International,3,Potential Loyalists
+12724,4,4,1031.41,France,International,3,Potential Loyalists
+12725,370,1,427.8,Italy,International,1,At-Risk
+12726,27,7,2609.1,France,International,2,Loyal Customers
+12727,10,7,3980.7,France,International,0,VIP / Champions
+12728,70,4,836.33,France,International,2,Loyal Customers
+12729,113,1,453.01,France,International,1,At-Risk
+12731,23,12,18895.91,France,International,0,VIP / Champions
+12732,179,1,236.26,France,International,1,At-Risk
+12733,233,1,383.95,United States,International,1,At-Risk
+12734,352,1,110.4,France,International,1,At-Risk
+12735,314,2,779.5699999999999,France,International,1,At-Risk
+12736,332,1,234.0,France,International,1,At-Risk
+12738,371,1,155.35,Germany,International,1,At-Risk
+12739,77,2,1013.04,United Arab Emirates,International,2,Loyal Customers
+12740,63,1,427.6,France,International,1,At-Risk
+12744,51,7,21279.29,Singapore,International,0,VIP / Champions
+12750,128,1,275.88,Poland,International,1,At-Risk
+12752,80,1,4366.78,Norway,International,2,Loyal Customers
+12753,22,6,21429.39,Japan,International,0,VIP / Champions
+12754,235,3,3010.74,Japan,International,2,Loyal Customers
+12755,280,2,3811.95,Japan,International,2,Loyal Customers
+12756,86,1,112.07999999999998,Japan,International,1,At-Risk
+12757,15,13,7834.650000000001,Portugal,International,0,VIP / Champions
+12758,116,2,2791.59,Portugal,International,2,Loyal Customers
+12759,51,3,1531.44,Netherlands,International,2,Loyal Customers
+12762,7,2,1898.52,Portugal,International,3,Potential Loyalists
+12763,137,2,494.08,Japan,International,1,At-Risk
+12764,316,1,1693.88,Lebanon,International,1,At-Risk
+12766,3,7,6989.63,Portugal,International,0,VIP / Champions
+12769,238,1,1143.6,Brazil,International,1,At-Risk
+12770,210,1,1351.45,Japan,International,1,At-Risk
+12772,59,1,892.47,Portugal,International,1,At-Risk
+12775,16,5,1386.04,Netherlands,International,2,Loyal Customers
+12778,19,6,822.23,Netherlands,International,2,Loyal Customers
+12779,37,8,3981.36,Poland,International,0,VIP / Champions
+12781,63,2,826.74,Czech Republic,International,2,Loyal Customers
+12782,4,5,2330.92,Portugal,International,0,VIP / Champions
+12783,1,6,2225.91,Portugal,International,0,VIP / Champions
+12784,8,2,532.8199999999999,Portugal,International,3,Potential Loyalists
+12785,363,1,311.95,Portugal,International,1,At-Risk
+12787,9,3,463.66,Netherlands,International,3,Potential Loyalists
+12789,64,1,91.85,Netherlands,International,1,At-Risk
+12790,191,1,324.92,Netherlands,International,1,At-Risk
+12791,373,1,192.6,Netherlands,International,1,At-Risk
+12792,256,1,400.54,Portugal,International,1,At-Risk
+12793,334,2,545.48,Portugal,International,1,At-Risk
+12794,52,2,860.41,Portugal,International,2,Loyal Customers
+12795,18,1,430.48,Portugal,International,3,Potential Loyalists
+12797,365,1,254.03,Portugal,International,1,At-Risk
+12798,9,3,6977.04,Japan,International,2,Loyal Customers
+12802,186,1,427.58,Netherlands,International,1,At-Risk
+12808,36,3,483.65,Portugal,International,3,Potential Loyalists
+12809,177,1,489.31,Portugal,International,1,At-Risk
+12811,260,3,514.85,Portugal,International,1,At-Risk
+12812,44,1,229.64,Japan,International,1,At-Risk
+12814,101,1,125.92,Poland,International,1,At-Risk
+12815,147,2,1063.46,Poland,International,1,At-Risk
+12816,95,2,572.2,Poland,International,1,At-Risk
+12817,280,1,166.04,Austria,International,1,At-Risk
+12818,261,1,1542.08,Austria,International,1,At-Risk
+12865,25,2,1568.23,Austria,International,2,Loyal Customers
+12866,282,1,559.12,Belgium,International,1,At-Risk
+12876,57,2,2218.02,Belgium,International,2,Loyal Customers
+13492,135,3,1269.84,Switzerland,International,2,Loyal Customers
+13493,274,2,618.63,Switzerland,International,1,At-Risk
+13501,287,1,1340.32,Switzerland,International,1,At-Risk
+13505,72,4,4393.63,Switzerland,International,2,Loyal Customers
+13520,58,6,3624.35,Switzerland,International,2,Loyal Customers
+13809,304,1,155.05,Cyprus,International,1,At-Risk
+13810,28,3,1499.01,Germany,International,2,Loyal Customers
+13811,183,3,814.5,Germany,International,1,At-Risk
+13812,41,3,539.0,Germany,International,3,Potential Loyalists
+13813,39,4,1366.86,Germany,International,2,Loyal Customers
+13814,91,2,1579.12,Germany,International,2,Loyal Customers
+13815,21,4,4027.36,Germany,International,2,Loyal Customers
+13816,23,2,571.6700000000001,Germany,International,3,Potential Loyalists
+13817,28,2,382.98,Germany,International,3,Potential Loyalists
+13919,58,2,384.81,Denmark,International,1,At-Risk
+14016,161,4,4341.21,Ireland,International,2,Loyal Customers
+14156,9,55,117210.08,Ireland,International,0,VIP / Champions
+14277,14,3,4188.0,France,International,2,Loyal Customers
+14335,15,2,454.86,Germany,International,3,Potential Loyalists
+14439,319,1,2661.24,Greece,International,1,At-Risk
+14442,204,2,1589.82,Channel Islands,International,2,Loyal Customers
+14566,110,1,1432.0,Channel Islands,International,1,At-Risk
+14646,1,73,280206.02,Netherlands,International,0,VIP / Champions
+14911,0,201,143711.17,Ireland,International,0,VIP / Champions
+14912,16,2,867.85,Italy,International,3,Potential Loyalists
+14930,108,3,2362.96,Channel Islands,International,2,Loyal Customers
+14931,4,5,1257.68,Channel Islands,International,3,Potential Loyalists
+14932,365,1,363.53,Channel Islands,International,1,At-Risk
+14934,81,2,1890.94,Channel Islands,International,2,Loyal Customers
+14935,296,1,1784.71,Channel Islands,International,1,At-Risk
+14936,33,8,8137.02,Channel Islands,International,0,VIP / Champions
+14937,56,3,1621.88,Channel Islands,International,2,Loyal Customers
+15332,365,4,1661.06,Lithuania,International,2,Loyal Customers
+15388,269,1,140.54,Canada,International,1,At-Risk
+15480,115,1,905.5,Malta,International,1,At-Risk
+16321,71,5,373.65,Australia,International,2,Loyal Customers
+17097,1,8,954.42,Spain,International,0,VIP / Champions
+17404,3,15,31906.82,Sweden,International,0,VIP / Champions
+17443,219,1,534.24,Canada,International,1,At-Risk
+17444,147,3,2940.04,Canada,International,2,Loyal Customers
+17508,280,1,387.31,Greece,International,1,At-Risk
+17828,22,4,1820.09,Malta,International,2,Loyal Customers
+17829,298,1,889.24,United Arab Emirates,International,1,At-Risk
+17844,106,1,51.56,Canada,International,1,At-Risk
