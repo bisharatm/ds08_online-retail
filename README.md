@@ -225,7 +225,11 @@ Within the unified RFM dataset, and consequently within both the Domestic and In
 
 Below are the RFM distributions for the Domestic and International subsets after applying the same transformation and scaling steps derived from the unified RFM dataset.
 
-[Modeling VIZ 01a & 01b]
+###### Domestic: 
+![RFM Distributions – Domestic](reports/modeling/fig__rfm_scaled__dist__domestic.png)
+
+###### International:
+![RFM Distributions – International](reports/modeling/fig__rfm_scaled__dist__global.png)
 
 #### Selecting the Number of Clusters
 
@@ -236,7 +240,11 @@ Since the number of segments is not known in advance, K-Means is run with k from
 
 For both Domestic and International subsets of the unified RFM dataset, the Elbow and Silhouette plots support a four-cluster solution as a good balance between interpretability and separation quality.
 
-[Modeling VIZ 02a & 02b]
+###### Domestic:
+![Cluster Selection – Domestic](reports/modeling/fig__elbow-silhouette__domestic.png)
+
+###### International:
+![Cluster Selection – International](reports/modeling/fig__elbow-silhouette__global.png)
 
 #### Final K-Means Models and Cluster Assignment
 
@@ -286,7 +294,11 @@ For each market, clusters are profiled using average Recency, Frequency, Monetar
     * Loyal Customers and Potential Loyalists are smaller in absolute size but strong in revenue contribution relative to their counts.
     * At-Risk customers, while fewer than in the domestic base, still indicate churn risk in international markets that may require targeted re-engagement.
 
-[Modeling VIZ 03a & 03b]
+###### Domestic:
+![Customer Clusters in PCA Space – Domestic](reports/modeling/fig__clusters-2d-proj__domestic.png) 
+
+###### International:
+![Customer Clusters in PCA Space – International](reports/modeling/fig__clusters-2d-proj__global.png)
 
 #### Visualizing Clusters
 
@@ -305,7 +317,11 @@ Next, boxplots of Recency, Frequency and Monetary by segment provide a more deta
 * Potential Loyalists show relatively recent activity but lower Frequency and spend.
 * At-Risk customers have high Recency and very low Frequency and Monetary values.
 
-[Modeling VIZ 04a & 04b]
+###### Domestic:
+![RFM Distributions by Segment – Domestic](reports/modeling/fig__rfm-boxplot-by-cluster__domestic.png) 
+
+###### International:
+![RFM Distributions by Segment – International](reports/modeling/fig__rfm-boxplot-by-cluster__global.png)
 
 ## Insights and Recommendations
 
