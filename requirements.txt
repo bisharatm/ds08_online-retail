@@ -1,0 +1,8 @@
+python-dotenv
+matplotlib
+notebook
+numpy
+openpyxl
+pandas
+requests
+seaborn
