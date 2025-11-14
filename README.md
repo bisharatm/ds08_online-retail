@@ -79,7 +79,7 @@ This question anchors the analytical approach and ensures that the segmentation 
 - Jupyter Notebooks
 - Google Docs
 - Google Colab
-- Git & Github 
+- Git & Github
 
 Programming Languages:
 
@@ -226,7 +226,7 @@ Within the unified RFM dataset, and consequently within both the Domestic and In
 
 Below are the RFM distributions for the Domestic and International subsets after applying the same transformation and scaling steps derived from the unified RFM dataset.
 
-###### Domestic: 
+###### Domestic:
 ![RFM Distributions – Domestic](reports/modeling/fig__rfm_scaled__dist__domestic.png)
 
 ###### International:
@@ -296,7 +296,7 @@ For each market, clusters are profiled using average Recency, Frequency, Monetar
     * At-Risk customers, while fewer than in the domestic base, still indicate churn risk in international markets that may require targeted re-engagement.
 
 ###### Domestic:
-![Segment Profiles – Domestic](reports/modeling/fig__clusters-3d__domestic.png) 
+![Segment Profiles – Domestic](reports/modeling/fig__clusters-3d__domestic.png)
 
 ###### International:
 ![Segment Profiles – International](reports/modeling/fig__clusters-3d__global.png)
@@ -311,7 +311,7 @@ First, Principal Component Analysis (PCA) projects the three RFM dimensions into
 * Loyal Customers and Potential Loyalists cluster between these extremes, reflecting intermediate levels of value and engagement.
 
 ###### Domestic:
-![Customer Clusters in PCA Space – Domestic](reports/modeling/fig__clusters-2d-proj__domestic.png) 
+![Customer Clusters in PCA Space – Domestic](reports/modeling/fig__clusters-2d-proj__domestic.png)
 
 ###### International:
 ![Customer Clusters in PCA Space – International](reports/modeling/fig__clusters-2d-proj__global.png)
@@ -323,7 +323,7 @@ Next, boxplots of Recency, Frequency and Monetary by segment provide a more deta
 * At-Risk customers have high Recency and very low Frequency and Monetary values.
 
 ###### Domestic:
-![RFM Distributions by Segment – Domestic](reports/modeling/fig__rfm-boxplot-by-cluster__domestic.png) 
+![RFM Distributions by Segment – Domestic](reports/modeling/fig__rfm-boxplot-by-cluster__domestic.png)
 
 ###### International:
 ![RFM Distributions by Segment – International](reports/modeling/fig__rfm-boxplot-by-cluster__global.png)
@@ -380,7 +380,7 @@ Examples:
 
 International customers represent a smaller but highly valuable user base. Their spending levels are significantly higher, and revenue is heavily concentrated among top segments. The strongest commercial lever in these markets is increasing purchase frequency.
 
-Key Insights: 
+Key Insights:
 
 * High-value VIP presence: VIP customers contribute over 70% of total international revenue and spend twice as much on average as UK VIPs.
 * Frequency drives revenue: A strong Monetary–Frequency correlation indicates that each additional purchase yields meaningful revenue gains.
@@ -389,7 +389,7 @@ Key Insights:
 ###### International Market - Top 10 Countries by Elasticity:
 ![International – Top 10 Countries by Elasticity](reports/insights/international_elasticity_barplot.png)
 
-Country-Level Elasticity Patterns: 
+Country-Level Elasticity Patterns:
 
 * Highly responsive markets (e.g., France, Finland, Portugal, Germany):
     * Spending grows more than proportionally with each additional purchase.
@@ -431,7 +431,7 @@ Country-Level Elasticity Patterns:
 # Setup Instructions
 1. Clone this repository (If this is a fork, use your fork's URL below).
 
-    `git clone https://github.com/bisharatm/ds08_team-project.git`
+    `git clone https://github.com/bisharatm/ds08_online-retail.git`
 
 2. Change to the project directory
 
