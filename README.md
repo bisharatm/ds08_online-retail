@@ -431,7 +431,7 @@ Country-Level Elasticity Patterns:
 # Setup Instructions
 1. Clone this repository (If this is a fork, use your fork's URL below).
 
-    `git clone https://github.com/bisharatm/ds08_team-project.git`
+    `git clone https://github.com/bisharatm/ds08_online-retail.git`
 
 2. Change to the project directory
 
