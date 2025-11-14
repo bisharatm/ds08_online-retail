@@ -296,10 +296,10 @@ For each market, clusters are profiled using average Recency, Frequency, Monetar
     * At-Risk customers, while fewer than in the domestic base, still indicate churn risk in international markets that may require targeted re-engagement.
 
 ###### Domestic:
-![Customer Clusters in PCA Space – Domestic](reports/modeling/fig__clusters-2d-proj__domestic.png) 
+![Segment Profiles – Domestic](reports/modeling/fig__clusters-3d__domestic.png) 
 
 ###### International:
-![Customer Clusters in PCA Space – International](reports/modeling/fig__clusters-2d-proj__global.png)
+![Segment Profiles – International](reports/modeling/fig__clusters-3d__global.png)
 
 #### Visualizing Clusters
 
@@ -310,7 +310,11 @@ First, Principal Component Analysis (PCA) projects the three RFM dimensions into
 * In both markets, VIP / Champions and At-Risk customers tend to occupy opposite ends of the PCA space.
 * Loyal Customers and Potential Loyalists cluster between these extremes, reflecting intermediate levels of value and engagement.
 
-[Modeling VIZ 04a & 04b]
+###### Domestic:
+![Customer Clusters in PCA Space – Domestic](reports/modeling/fig__clusters-2d-proj__domestic.png) 
+
+###### International:
+![Customer Clusters in PCA Space – International](reports/modeling/fig__clusters-2d-proj__global.png)
 
 Next, boxplots of Recency, Frequency and Monetary by segment provide a more detailed look at how behaviour differs within each market.
 
