@@ -32,7 +32,7 @@ Using transactional data from December 2010 to December 2011, the project addres
 
 The outcome of this work is a set of well-defined customer segments, accompanied by behavioural profiles and actionable recommendations. These insights are designed to support targeted campaigns, inform strategic decision-making, and optimise commercial resource allocation.
 
-#### Business Case and Analytical Focus
+#### Business Case and Analytical Focus:
 
 The central goal of the analysis is to understand how customer behaviour differs between the UK and international markets and how these differences translate into value for the business. While the UK constitutes the majority of transactions, international customers may demonstrate distinct, potentially high-value purchasing patterns that warrant tailored engagement. By revealing these behavioural differences, the project provides the organisation with evidence to support differentiated marketing strategies rather than a one-size-fits-all approach.
 
@@ -330,7 +330,97 @@ Next, boxplots of Recency, Frequency and Monetary by segment provide a more deta
 
 ## Insights and Recommendations
 
-#### Conclusion
+This section synthesises the commercial insights emerging from the segmented RFM dataset and the subsequent revenue and elasticity analyses. It highlights how value is distributed across customer segments in both Domestic (UK) and International markets, where the strongest opportunities for growth lie, and what strategic actions can support improved commercial performance.
+
+### Domestic (UK) Market Insights:
+
+The UK market is characterised by high purchase frequency but comparatively lower basket values. Revenue is concentrated among a relatively small share of customers, revealing a clear opportunity to reinforce loyalty and prevent churn.
+
+Key Insights:
+
+* Revenue concentration:
+    * A small subset of customers generates a disproportionately large share of revenue, reflecting a classic Pareto pattern.
+* Customer behaviour:
+    * High transaction frequency
+    * Lower average spend per order
+    * Strong potential for uplift through targeted retention programmes
+
+* Potential Loyalists as a growth lever:
+    * This segment represents a large share of the customer base and shows strong potential to move into higher-value behaviour with the right incentives.
+
+#### Domestic Revenue Uplift Scenarios:
+
+A conversion analysis quantifies how revenue would increase if Potential Loyalists shifted their behaviour to resemble Loyal Customers.
+
+###### Domestic Incremental Revenue Uplift (GBP):
+![Domestic – Incremental Revenue Uplift (GBP)](reports/insights/domestic_conversion_uplift_absolute.png)
+
+###### Domestic Revenue Uplift as % of Total Revenue:
+![Domestic – Revenue Uplift as % of Total Revenue](reports/insights/domestic_conversion_uplift_percentage.png)
+
+Examples:
+
+* Converting 100% of Potential Loyalists would increase revenue by £1.12M, representing a 69% uplift.
+* Even a 25% conversion yields over £280k, or a 17% uplift in total revenue.
+
+#### Recommended Actions (Domestic):
+
+* Strengthen loyalty programmes to encourage repeat purchases and maintain engagement.
+* Develop VIP perks, including:
+    * Exclusive access
+    * Early product previews
+    * Personalised recommendations
+    * Free shipping tiers
+* Activate Potential Loyalists through:
+    * Personalised “we miss you” messages
+    * Time-limited reactivation incentives
+    * Offers linked to previously browsed or purchased categories
+
+### International Market Insights:
+
+International customers represent a smaller but highly valuable user base. Their spending levels are significantly higher, and revenue is heavily concentrated among top segments. The strongest commercial lever in these markets is increasing purchase frequency.
+
+Key Insights: 
+
+* High-value VIP presence: VIP customers contribute over 70% of total international revenue and spend twice as much on average as UK VIPs.
+* Frequency drives revenue: A strong Monetary–Frequency correlation indicates that each additional purchase yields meaningful revenue gains.
+* Market variability: Elasticity analysis reveals clear differences across countries in how spending responds to additional purchases.
+
+###### International Market - Top 10 Countries by Elasticity:
+![International – Top 10 Countries by Elasticity](reports/insights/international_elasticity_barplot.png)
+
+Country-Level Elasticity Patterns: 
+
+* Highly responsive markets (e.g., France, Finland, Portugal, Germany):
+    * Spending grows more than proportionally with each additional purchase.
+    * Extra transactions can generate £700–£850 in incremental revenue per customer.
+* Moderately responsive markets:
+    * Still receptive to engagement, but with more stable spending patterns.
+* Lower-responsiveness markets:
+    * Better suited to increasing value per transaction rather than frequency.
+
+#### Recommended Actions (International)
+
+* High-responsiveness markets:
+    * Reorder incentives and frequency-based rewards
+    * Auto-replenishment reminders
+    * Loyalty credit for consecutive monthly purchases
+* Moderate-responsiveness markets:
+    * Calibrated promotions tied to elasticity
+    * Upsell and cross-sell campaigns
+* Lower-responsiveness markets:
+    * Improve AOV through:
+        * Premium bundles
+        * Tiered shipping upgrades
+        * Value-add accessories
+
+#### Strategic Takeaways Across Markets
+
+* Domestic: Prioritise loyalty and retention, particularly converting Potential Loyalists and strengthening the VIP experience.
+
+* International: Focus on increasing purchase frequency in responsive markets and raising average order value where frequency gains are limited.
+
+* Combined global approach: A balanced strategy that reinforces loyalty at home while stimulating high-impact frequency abroad offers the strongest overall return.
 
 # Team Videos
 
