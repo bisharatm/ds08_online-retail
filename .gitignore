@@ -1,3 +1,9 @@
+# Ignore local VS Code developer settings
 .vscode/settings.json
+
+# Ignore raw or generated data files
 data/**/*.xls*
 data/**/*.zip
+
+# Ignore everything under .ipynb_checkpoints
+**/.ipynb_checkpoints

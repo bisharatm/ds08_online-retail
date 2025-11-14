@@ -18,6 +18,7 @@ Data Sciences Institute - Cohort 7 - Team DS08 - Final Project
     * [Visualizations and Insights](#visualizations-and-insights)
     * [Conclusion and Recommendations](#conclusion-and-recommendations)
 * [Team Videos](#team-videos)
+* [Setup Instructions](#setup-instructions)
 
 Raw data source: [UC Irvine Machine Learning Repository - Online Retail](https://archive.ics.uci.edu/dataset/352/online+retail)
 
@@ -49,7 +50,7 @@ This question anchors the analytical approach and ensures that the segmentation 
 
 #### Risks and uncertainties:
 
-- Uncertainties: 
+- Uncertainties:
     1. Having insufficient sample size, especially for international markets, may affect cluster representativeness.
     2. Ambiguity in cancellation reasons.
     3. Dataset spans December 2010 to December 2011, a single year, only therefore, external factors such as economic conditions, seasonality, and promotional cycles may impact generalizability for future years.
@@ -333,3 +334,25 @@ Next, boxplots of Recency, Frequency and Monetary by segment provide a more deta
 * Bisharat Memon |
 * Jose Sosa |
 
+# Setup Instructions
+1. Clone this repository (If this is a fork, use your fork's URL below).
+
+    `git clone https://github.com/bisharatm/ds08_team-project.git`
+
+2. Change to the project directory
+
+    `cd ds08_online-retail`
+
+3. Install dependencies
+
+    **Note:** Create and activate a **seperate** virtual environment for the project.
+
+    `pip install -r requirements.txt`
+
+4. Launch Jupyter Notebook (dashboard opens in browser)
+
+    `jupyter notebook`
+
+5. Run notebooks
+
+    Navigate to each notebook (numbered sequentially), open and run individually, making sure to run them in the intended order. Various outputs, such as, interim and final datasets, and visualizations will be exported and saved into approprirate folders under `data/` or `reports/`.
