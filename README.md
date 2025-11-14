@@ -103,30 +103,24 @@ The final deliverables will include clear segment definitions, behavioral profil
 # Team Videos
 
 # Setup Instructions
-1. Clone this repository
-
-    _If this is a fork, replace the URL below with your fork’s URL_
+1. Clone this repository (If this is a fork, use your fork's URL below).
 
     `git clone https://github.com/bisharatm/ds08_team-project.git`
 
-2. Navigate to the project directory
+2. Change to the project directory
 
     `cd ds08_online-retail`
 
 3. Install dependencies
 
-    **Note:** Before proceeding further, create and activate a **seperate** _conda environment_ or _venv virtual environment_ for the project to install project-specific dependencies.
+    **Note:** Create and activate a **seperate** virtual environment for the project.
 
     `pip install -r requirements.txt`
 
-4. Launch Jupyter Notebook
-
-    This opens the Jupyter Notebook dashboard in your browser.
+4. Launch Jupyter Notebook (dashboard opens in browser)
 
     `jupyter notebook`
 
 5. Run notebooks
 
-    Navigate to each notebook (numbered sequentially), open and run individually, making sure to run them in the intended order.
-
-    Various outputs, such as, interim and final datasets, and visualizations will be exported and saved into approprirate folders under `data/` or `reports/`.
+    Navigate to each notebook (numbered sequentially), open and run individually, making sure to run them in the intended order. Various outputs, such as, interim and final datasets, and visualizations will be exported and saved into approprirate folders under `data/` or `reports/`.
