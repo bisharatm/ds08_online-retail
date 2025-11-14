@@ -61,7 +61,7 @@ This question anchors the analytical approach and ensures that the segmentation 
 
 # Methodology
 
-#### Process:
+### Process:
 
 - Raw data Inspection: Audit schema and coverage, check date ranges, duplicates, cancellations, and country distribution to confirm data readiness.
 - Data Cleaning: Prepare a single analysis-ready file, handle missing values, correct data types and standardize labels of interest; flag cancellations and adjustments, deduplicate and compute reliable totals.
@@ -70,29 +70,36 @@ This question anchors the analytical approach and ensures that the segmentation 
 - Visualizations and Insights: Create clear plots and summaries illustrating segment size, value, and behaviors by market for stakeholders.
 - Conclusion and Recommendations: Synthesize segment findings into actionable recommendations for targeted marketing strategies and next steps, noting limitations and assumptions.
 
-#### Technical Stack:
+### Technical Stack:
+
+#### Development Tools:
 
 - VS Code
-- Slack
+- Jupyter Notebooks
 - Google Docs
 - Google Colab
-- Zoom Meetings 
+- Git & Github 
 
-#### Programming Languages:
+Programming Languages:
 
 - Python
 
-#### Libraries Used:
+Libraries Used:
 
 - Data Analysis and Visualization:
-    1.  numpy
-    2.  pandas
-    3.  matplotlib
-    4.  datatime
-    5.  seaborn
+    1.  NumPy
+    2.  Pandas
+    3.  Matplotlib
+    4.  Seaborn
 
 - Clustering model, Evaluation and Validation:
     1.  scikit-learn
+
+#### Collaboration Tools
+
+- Slack
+- Zoom
+- Google Docs
 
 ## Raw data Inspection
 
@@ -190,9 +197,119 @@ Overall, the exploratory analysis highlights two structurally different customer
 
 ## Modeling: Clustering and Segmentation
 
-## Visualizations and Insights
+#### Modeling: Clustering and Segmentation
 
-## Conclusion and Recommendations
+Building on a single unified RFM dataset derived from all customers, this stage applies K-Means clustering separately to Domestic (UK) and International (non-UK) customer subsets. Both subsets originate from the same RFM table; they are split only at the modeling stage to allow market-specific segmentation. The goal is to uncover behaviourally distinct customer segments in each market, and to compare how these segments differ in size, value and engagement.
+
+Once the unified RFM table is split into Domestic and International subsets, the modeling steps applied to each subset are the same:
+
+* Use customer-level RFM features
+    * Recency: days since the most recent purchase
+    * Frequency: number of unique purchase occasions
+    * Monetary: cumulative spend in British pounds
+
+* Apply a log transformation to reduce skewness in RFM features
+* Standardize the transformed features so they share a common scale
+* Fit K-Means models across multiple values of k
+* Select an appropriate number of clusters using inertia and silhouette diagnostics
+* Train a final K-Means model with the chosen k and assign each customer to a cluster
+* Translate clusters into business-friendly segments using RFM profiles
+
+#### Feature Transformation and Scaling
+
+Within the unified RFM dataset, and consequently within both the Domestic and International subsets derived from it, the raw distributions are highly skewed. Most customers purchase infrequently and spend relatively little, while a small minority account for very high Monetary values. To avoid letting extreme spenders dominate the clustering, the following transformations are applied in each notebook:
+
+* Log-transform Recency, Frequency and Monetary using a natural log of (x + 1)
+* Standardize the transformed features so that each has approximately mean zero and unit variance
+* Inspect correlations to confirm that Frequency and Monetary move together and that Recency is negatively related to both
+
+Below are the RFM distributions for the Domestic and International subsets after applying the same transformation and scaling steps derived from the unified RFM dataset.
+
+[Modeling VIZ 01a & 01b]
+
+#### Selecting the Number of Clusters
+
+Since the number of segments is not known in advance, K-Means is run with k from 2 to 10 for both markets. Two diagnostics are used:
+
+* An Elbow curve of inertia (within-cluster sum of squares) to show how compactness improves as k increases
+* A Silhouette score curve to measure how well each customer fits within its assigned cluster
+
+For both Domestic and International subsets of the unified RFM dataset, the Elbow and Silhouette plots support a four-cluster solution as a good balance between interpretability and separation quality.
+
+[Modeling VIZ 02a & 02b]
+
+#### Final K-Means Models and Cluster Assignment
+
+Using k equal to four for each market, final K-Means models are trained on the transformed and scaled RFM features.
+
+* The Domestic model clusters approximately 3,900 UK customers (filtered from the unified RFM dataset) into four groups.
+* The International model clusters approximately 400 non-UK customers (from the same unified RFM dataset) into four groups.
+
+Cluster labels are assigned to each customer and saved into prepared CSV files for further analysis and reporting:
+
+* data/prepared/rfm_domestic_clustered_segmented_final_k_4.csv
+* data/prepared/rfm_global_clustered_segmented_final_k_4.csv
+
+This provides a consistent basis for comparing segment behaviour across markets. Because both market subsets originate from the same RFM source table and are processed using the same transformation pipeline, their segments remain structurally comparable.
+
+#### Segment Profiles: Domestic vs International
+
+For each market, clusters are profiled using average Recency, Frequency, Monetary and segment size. These statistics are then mapped to intuitive business segments. In both markets, four comparable segments emerge:
+
+* VIP / Champions
+    * Very recent purchasers
+    * High purchase frequency
+    * Highest spending levels per customer
+
+* Loyal Customers
+    * Regular purchasing behaviour
+    * Moderate to high spending
+    * Important for consistent revenue
+
+* Potential Loyalists
+    * Relatively recent purchases
+    * Lower frequency and spend so far
+    * Opportunity to nurture into higher-value segments
+
+* At-Risk Customers
+    * Long time since last purchase
+    * Low frequency and low spend
+    * At risk of churn or already disengaged
+
+* In the Domestic market:
+    * At-Risk customers represent the largest segment by count.
+    * VIP / Champions and Loyal Customers together capture a substantial share of total spend.
+    * Potential Loyalists are a meaningful group of customers who have purchased recently but have not yet reached high frequency or monetary levels.
+
+* In the International market:
+    * VIP / Champions show especially high Monetary values, often exceeding their domestic counterparts on a per-customer basis.
+    * Loyal Customers and Potential Loyalists are smaller in absolute size but strong in revenue contribution relative to their counts.
+    * At-Risk customers, while fewer than in the domestic base, still indicate churn risk in international markets that may require targeted re-engagement.
+
+[Modeling VIZ 03a & 03b]
+
+#### Visualizing Clusters
+
+To validate that the clusters are distinct and interpretable, dimensionality reduction and distribution plots are used to visualize the segment structure separately for each market.
+
+First, Principal Component Analysis (PCA) projects the three RFM dimensions into two components. Each point represents a customer and is coloured by segment label.
+
+* In both markets, VIP / Champions and At-Risk customers tend to occupy opposite ends of the PCA space.
+* Loyal Customers and Potential Loyalists cluster between these extremes, reflecting intermediate levels of value and engagement.
+
+[Modeling VIZ 04a & 04b]
+
+Next, boxplots of Recency, Frequency and Monetary by segment provide a more detailed look at how behaviour differs within each market.
+
+* VIP and Loyal segments cluster around low Recency, higher Frequency and higher Monetary values.
+* Potential Loyalists show relatively recent activity but lower Frequency and spend.
+* At-Risk customers have high Recency and very low Frequency and Monetary values.
+
+[Modeling VIZ 04a & 04b]
+
+## Insights and Recommendations
+
+#### Conclusion
 
 # Team Videos
 
