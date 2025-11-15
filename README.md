@@ -122,7 +122,7 @@ By formalizing the data fetch into code, the project establishes a stable founda
 
 This stage transforms the raw Online Retail dataset into a reliable, analytics-ready table by addressing missing information, correcting structural inconsistencies, and standardizing key identifiers. The goal is to ensure that every transaction used in the segmentation model represents a valid, attributable customer purchase across clearly defined markets.
 
-We began by importing the original Excel file and writing it to an intermediate CSV. Because CSV files do not preserve data types, the project uses an external source file that defines the expected schema for all key fields including invoice number, product code, description, quantity, unit price, customer ID, and country. This shared schema is referenced across all notebooks so that each dataset is read with consistent data types, supporting a fully reproducible and transparent pipeline.
+We began by importing the original Excel file and writing it to an intermediate CSV. Because CSV files do not preserve data types, the project uses an external source file that defines the expected schema for all key fields including invoice number, invoice date, stock code, description, customer ID, and country. This shared schema is referenced across all notebooks so that each dataset is read with consistent data types, supporting a fully reproducible and transparent pipeline.
 
 A series of systematic checks were then performed to assess and improve data quality:
 
@@ -200,7 +200,7 @@ Overall, the exploratory analysis highlights two structurally different customer
 
 #### Modeling: Clustering and Segmentation
 
-Building on a single unified RFM dataset derived from all customers, this stage applies K-Means clustering separately to Domestic (UK) and International (non-UK) customer subsets. Both subsets originate from the same RFM table; they are split only at the modeling stage to allow market-specific segmentation. The goal is to uncover behaviourally distinct customer segments in each market, and to compare how these segments differ in size, value and engagement.
+Building on a single unified RFM dataset derived from all customers, this stage applies K-Means clustering separately to Domestic (UK) and International (non-UK) customer subsets. Both subsets originate from the same RFM table, which is prepared in the EDA stage and then split into domestic and international views for market-specific segmentation. The goal is to uncover behaviourally distinct customer segments in each market, and to compare how these segments differ in size, value and engagement.
 
 Once the unified RFM table is split into Domestic and International subsets, the modeling steps applied to each subset are the same:
 
@@ -285,15 +285,15 @@ For each market, clusters are profiled using average Recency, Frequency, Monetar
     * Low frequency and low spend
     * At risk of churn or already disengaged
 
-* In the Domestic market:
-    * At-Risk customers represent the largest segment by count.
-    * VIP / Champions and Loyal Customers together capture a substantial share of total spend.
-    * Potential Loyalists are a meaningful group of customers who have purchased recently but have not yet reached high frequency or monetary levels.
+* In the Domestic market:  
+    * At-Risk customers represent the largest segment by count (around 38% of the customer base) but contribute only a small share of revenue (about 7%).  
+    * VIP / Champions and Loyal Customers together capture the vast majority of total spend, contributing close to 90% of revenue while representing just over 40% of customers.  
+    * Potential Loyalists account for roughly one in five domestic customers. They have purchased recently but still show relatively low frequency and spend, making them a natural target for growth initiatives.
 
-* In the International market:
-    * VIP / Champions show especially high Monetary values, often exceeding their domestic counterparts on a per-customer basis.
-    * Loyal Customers and Potential Loyalists are smaller in absolute size but strong in revenue contribution relative to their counts.
-    * At-Risk customers, while fewer than in the domestic base, still indicate churn risk in international markets that may require targeted re-engagement.
+* In the International market:  
+    * VIP / Champions show especially high Monetary values, on average roughly twice those of domestic VIPs, and account for about 72% of international revenue despite being less than 20% of the customer base.  
+    * Loyal Customers represent around 30% of international customers and contribute roughly 20% of revenue, forming a solid mid-value segment. Potential Loyalists make up around 17% of customers but only about 3% of revenue, indicating future growth potential rather than a current revenue engine.  
+    * At-Risk customers are fewer in number than in the domestic base but still make up roughly one third of international customers, signalling churn risk that may require targeted re-engagement.
 
 ###### Domestic:
 ![Segment Profiles – Domestic](reports/modeling/fig__clusters-3d__domestic.png)
@@ -346,22 +346,22 @@ Key Insights:
     * Strong potential for uplift through targeted retention programmes
 
 * Potential Loyalists as a growth lever:
-    * This segment represents a large share of the customer base and shows strong potential to move into higher-value behaviour with the right incentives.
+    * This segment represents an important share of the customer base and shows strong potential to move into higher-value behaviour with the right incentives.
 
 #### Domestic Revenue Uplift Scenarios:
 
 A conversion analysis quantifies how revenue would increase if Potential Loyalists shifted their behaviour to resemble Loyal Customers.
 
 ###### Domestic Incremental Revenue Uplift (GBP):
-![Domestic – Incremental Revenue Uplift (GBP)](reports/insights/domestic_conversion_uplift_absolute.png)
+![Domestic – Incremental Revenue Uplift (GBP)](reports/figures/revenue_uplift_gbp.png)
 
 ###### Domestic Revenue Uplift as % of Total Revenue:
-![Domestic – Revenue Uplift as % of Total Revenue](reports/insights/domestic_conversion_uplift_percentage.png)
+![Domestic – Revenue Uplift as % of Total Revenue](reports/figures/revenue_uplift_percent.png)
 
 Examples:
 
-* Converting 100% of Potential Loyalists would increase revenue by £1.12M, representing a 69% uplift.
-* Even a 25% conversion yields over £280k, or a 17% uplift in total revenue.
+* Converting 100% of Potential Loyalists so that their spending matches Loyal Customers would increase domestic revenue by approximately £0.89M, representing about a 12% uplift relative to current domestic revenue.
+* Even a 25% conversion would yield around £0.22M in extra revenue, or roughly a 3% uplift in total domestic revenue.
 
 #### Recommended Actions (Domestic):
 
@@ -387,7 +387,7 @@ Key Insights:
 * Market variability: Elasticity analysis reveals clear differences across countries in how spending responds to additional purchases.
 
 ###### International Market - Top 10 Countries by Elasticity:
-![International – Top 10 Countries by Elasticity](reports/insights/international_elasticity_barplot.png)
+![International – Top 10 Countries by Elasticity](reports/figures/top_10_countries_by_elasticity.png)
 
 Country-Level Elasticity Patterns:
 
