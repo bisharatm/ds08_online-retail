@@ -15,8 +15,7 @@ Data Sciences Institute - Cohort 7 - Team DS08 - Final Project
     * [Data Cleaning](#data-cleaning)
     * [Exploratory Data Analysis](#exploratory-data-analysis)
     * [Modeling: Clustering and Segmentation](#modeling-clustering-and-segmentation)
-    * [Visualizations and Insights](#visualizations-and-insights)
-    * [Conclusion and Recommendations](#conclusion-and-recommendations)
+* [Insights and Recommendations](#insights-and-recommendations)
 * [Team Videos](#team-videos)
 * [Setup Instructions](#setup-instructions)
 
@@ -328,7 +327,7 @@ Next, boxplots of Recency, Frequency and Monetary by segment provide a more deta
 ###### International:
 ![RFM Distributions by Segment – International](reports/modeling/fig__rfm-boxplot-by-cluster__global.png)
 
-## Insights and Recommendations
+# Insights and Recommendations
 
 This section synthesises the commercial insights emerging from the segmented RFM dataset and the subsequent revenue and elasticity analyses. It highlights how value is distributed across customer segments in both Domestic (UK) and International markets, where the strongest opportunities for growth lie, and what strategic actions can support improved commercial performance.
 
@@ -426,7 +425,7 @@ Country-Level Elasticity Patterns:
 
 * Ayesha Hasan |
 * Bisharat Memon |
-* Jose Sosa |
+* Jose Sosa | [Project Retrospective](https://youtu.be/01FZakIMC_o)
 
 # Setup Instructions
 1. Clone this repository (If this is a fork, use your fork's URL below).
