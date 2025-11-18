@@ -423,7 +423,7 @@ Country-Level Elasticity Patterns:
 
 # Team Videos
 
-* Ayesha Hasan |
+* Ayesha Hasan |[Project Reflection](https://youtu.be/7QqhjINfHBg)
 * Bisharat Memon |
 * Jose Sosa | [Project Retrospective](https://youtu.be/01FZakIMC_o)
 
