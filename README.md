@@ -433,12 +433,12 @@ Country-Level Elasticity Patterns:
 ### 0. Requirements
 - Terminal (cmd, bash or similar)
 - Python 3.9 or above
-- Web browser, to open Jupyter Notebooks GUI
+- Web browser, to open Jupyter Notebook GUI
 
 ### 1. Clone the repository
 _If the repo is a fork, use the fork's URL._
 ```bash
-git clone https://github.com/bisharatm/ds08_online-retail.git`
+git clone https://github.com/bisharatm/ds08_online-retail.git
 cd ds08_online-retail
 ```
 
@@ -463,16 +463,17 @@ Or, using `venv` (on Windows):
 # on Windows
 python -m venv ds08_env
 ds08_env\Scripts\activate
+pip install -r requirements.txt
 ```
 
 ### 3. Launch Jupyter Notebook
-_Dashboard opens in default web browser._
+_Jupyter Notebook user interface opens in default web browser._
 ```bash
 jupyter notebook
 ```
 
 ### 4. Run the project notebooks
-In the Jupyter Notebooks dashboard (browser window), open and run each notebook individually. Ensure to run them in the **intended order** (see below). Each notebook generates various outputs, such as, interim and final datasets, and visualizations and these artefacts will be exported and saved into approprirate sub-folders under `data/` or `reports/`.
+In the Jupyter Notebook user interface (browser window), open and run each notebook individually. Ensure to run them in the **intended order** (see below). Each notebook generates various outputs, such as, interim and final datasets, and visualizations and these artefacts will be exported and saved into approprirate sub-folders under `data/` or `reports/`.
 ```
 notebooks/
     |-- 00_fetch_raw_data.ipynb
