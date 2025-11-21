@@ -428,7 +428,7 @@ Country-Level Elasticity Patterns:
 * Jose Sosa | [Project Retrospective](https://youtu.be/01FZakIMC_o)
 
 #
-## Setup Instructions
+# Setup Instructions
 
 ### 0. Requirements
 - Terminal (cmd, bash or similar)
@@ -465,15 +465,15 @@ python -m venv ds08_env
 ds08_env\Scripts\activate
 ```
 
-### 4. Launch Jupyter Notebook
+### 3. Launch Jupyter Notebook
 _Dashboard opens in default web browser._
 ```bash
 jupyter notebook
 ```
 
-### 5. Run the project notebooks
+### 4. Run the project notebooks
 In the Jupyter Notebooks dashboard (browser window), open and run each notebook individually. Ensure to run them in the **intended order** (see below). Each notebook generates various outputs, such as, interim and final datasets, and visualizations and these artefacts will be exported and saved into approprirate sub-folders under `data/` or `reports/`.
-```bash
+```
 notebooks/
     |-- 00_fetch_raw_data.ipynb
     |-- 01_data_exploration_and_cleaning.ipynb
