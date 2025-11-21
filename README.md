@@ -284,14 +284,14 @@ For each market, clusters are profiled using average Recency, Frequency, Monetar
     * Low frequency and low spend
     * At risk of churn or already disengaged
 
-* In the Domestic market:  
-    * At-Risk customers represent the largest segment by count (around 38% of the customer base) but contribute only a small share of revenue (about 7%).  
-    * VIP / Champions and Loyal Customers together capture the vast majority of total spend, contributing close to 90% of revenue while representing just over 40% of customers.  
+* In the Domestic market:
+    * At-Risk customers represent the largest segment by count (around 38% of the customer base) but contribute only a small share of revenue (about 7%).
+    * VIP / Champions and Loyal Customers together capture the vast majority of total spend, contributing close to 90% of revenue while representing just over 40% of customers.
     * Potential Loyalists account for roughly one in five domestic customers. They have purchased recently but still show relatively low frequency and spend, making them a natural target for growth initiatives.
 
-* In the International market:  
-    * VIP / Champions show especially high Monetary values, on average roughly twice those of domestic VIPs, and account for about 72% of international revenue despite being less than 20% of the customer base.  
-    * Loyal Customers represent around 30% of international customers and contribute roughly 20% of revenue, forming a solid mid-value segment. Potential Loyalists make up around 17% of customers but only about 3% of revenue, indicating future growth potential rather than a current revenue engine.  
+* In the International market:
+    * VIP / Champions show especially high Monetary values, on average roughly twice those of domestic VIPs, and account for about 72% of international revenue despite being less than 20% of the customer base.
+    * Loyal Customers represent around 30% of international customers and contribute roughly 20% of revenue, forming a solid mid-value segment. Potential Loyalists make up around 17% of customers but only about 3% of revenue, indicating future growth potential rather than a current revenue engine.
     * At-Risk customers are fewer in number than in the domestic base but still make up roughly one third of international customers, signalling churn risk that may require targeted re-engagement.
 
 ###### Domestic:
@@ -427,25 +427,60 @@ Country-Level Elasticity Patterns:
 * Bisharat Memon | [Project Reflection](https://youtu.be/k96ECGaMYK4)
 * Jose Sosa | [Project Retrospective](https://youtu.be/01FZakIMC_o)
 
-# Setup Instructions
-1. Clone this repository (If this is a fork, use your fork's URL below).
+#
+## Setup Instructions
 
-    `git clone https://github.com/bisharatm/ds08_online-retail.git`
+### 0. Requirements
+- Terminal (cmd, bash or similar)
+- Python 3.9 or above
+- Web browser, to open Jupyter Notebooks GUI
 
-2. Change to the project directory
+### 1. Clone the repository
+_If the repo is a fork, use the fork's URL._
+```bash
+git clone https://github.com/bisharatm/ds08_online-retail.git`
+cd ds08_online-retail
+```
 
-    `cd ds08_online-retail`
+### 2. Set up a seperate virtual environment
+_Replace `ds08_env` below with an appropriate environment name if needed._
 
-3. Install dependencies
+If you're already using `conda`:
+```bash
+# create environment and install required dependecies
+conda env create -n ds08_env -f environment.yml
+conda activate ds08_env
+```
+Alternatively, using `venv` (on Linux or similar OS):
+```bash
+# on Unix-based OS
+python -m venv ds08_env
+source ds08_env/bin/activate
+pip install -r requirements.txt
+```
+Or, using `venv` (on Windows):
+```powershell
+# on Windows
+python -m venv ds08_env
+ds08_env\Scripts\activate
+```
 
-    **Note:** Create and activate a **seperate** virtual environment for the project.
+### 4. Launch Jupyter Notebook
+_Dashboard opens in default web browser._
+```bash
+jupyter notebook
+```
 
-    `pip install -r requirements.txt`
-
-4. Launch Jupyter Notebook (dashboard opens in browser)
-
-    `jupyter notebook`
-
-5. Run notebooks
-
-    Navigate to each notebook (numbered sequentially), open and run individually, making sure to run them in the intended order. Various outputs, such as, interim and final datasets, and visualizations will be exported and saved into approprirate folders under `data/` or `reports/`.
+### 5. Run the project notebooks
+In the Jupyter Notebooks dashboard (browser window), open and run each notebook individually. Ensure to run them in the **intended order** (see below). Each notebook generates various outputs, such as, interim and final datasets, and visualizations and these artefacts will be exported and saved into approprirate sub-folders under `data/` or `reports/`.
+```bash
+notebooks/
+    |-- 00_fetch_raw_data.ipynb
+    |-- 01_data_exploration_and_cleaning.ipynb
+    |-- 02_eda_and_final_preparation.ipynb
+    |-- 03a_modeling_and_clustering_domestic_cust.ipynb
+    |-- 03b_modeling_and_clustering_global_cust.ipynb
+    `-- 04_insights_and_recommendation.ipynb
+data/
+reports/
+```
